@@ -1,0 +1,62 @@
+function opt = smr_optimize_opt
+% This function returns a fixed 'standard set' of optimization options.
+%
+    
+%%% Misc
+opt.fid                     = -1;
+opt.silence                 = 1;
+opt.do_parallel             = 0;
+opt.n_run                   = 6;
+opt.mp_name                 = 'composite';
+
+%%% Penalties and constraints
+opt.par_sign_diff           = [Inf  0.05  0.1e-9 0.1e-9 Inf Inf Inf Inf Inf Inf 10e-3 10e-3];
+opt.tacq_limit              = 30 * 60;
+opt.snr_min                 = 2;
+
+%%% Bounds
+opt.n_shell                 = 10;
+%
+opt.b_min                   = 0;
+opt.b_max                   = 10;
+opt.b_step                  = 0.1;
+%
+opt.b_delta_min             = -0.5;
+opt.b_delta_max             = 1;
+opt.b_delta_step            = 0.05;
+opt.discrete_b_delta        = [];
+%
+opt.te_min                  = 50;
+opt.te_max                  = 300;
+opt.te_step                 = 5;
+%
+opt.ndir_scale_min          = 1;
+opt.ndir_scale_max          = 3;
+opt.ndir_scale_step         = 0.1;
+opt.discrete_ndir           = [];
+%
+
+%%% Reference SNR
+opt.snr_ref             = 110; % extrapolated to TE = 0 from an SNR ~ 30 @ b = 0 assuming T2 ~ 80ms
+opt.snr_ref_voxel_size  = [2.0 2.0 2.0] *1e-3;
+
+%%% Sequence parameters
+%
+% Geometry
+opt.voxel_size      = [2.5 2.5 2.5] * 1e-3;
+opt.n_slice         = 40;
+%
+% Timing
+opt.shell_time      = 0; % Extra time required / shell
+opt.tau_fatsat      = 5.0   * 1e-3;
+opt.tau_rf90        = 10.0  * 1e-3;
+opt.tau_rf180       = 8.0   * 1e-3;
+opt.tau_epi         = 45    * 1e-3;
+opt.pf_factor       = 0.75;         % partial Fourier
+%
+% Gradients
+opt.duty_cycle      = 0;
+opt.g_max           = 0.075;        % Actual 0.080, but with a safety marginal added for
+                                    % free gradient waveform optimization
+
+end
