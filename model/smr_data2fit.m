@@ -14,18 +14,20 @@ function m = smr_data2fit(signal, xps, opt, ind)
 % p22i    = m(10);
 % t2_s    = m(11);
 % t2_z    = m(12);
-% msr     = m(13);
-
+% ssr     = m(13);
 
 if (nargin < 3), opt = smr_opt(); end
 if (nargin < 4), ind = ones(size(signal)) > 0; end
 
+
+%%% Normalization
+%
 ms = max(signal);
 % 1     2       3       4       5       6       7       8       9       10       11     12
 % s0    fs      di_s    di_z    dd_z    p20     p21r    p21i    p22r    p22i    t2_s    t2_z
 unit_to_SI = [ms    1       1e-9    1e-9    1       1       1       1       1       1       1e-3    1e-3];
-
-maxp     = sqrt(5/pi);
+%
+maxp       = sqrt(5 / (4*pi)); % Not strictly necessary to enforce
 
 %%% Set bounds
 %           1       2       3       4       5        6      7       8       9       10       11     12
@@ -44,12 +46,20 @@ lambda = mean(signal);
 %%% Fitting function
     function s = my_1d_fit2data(t,varargin)
         
+        if (opt.do_fix_t2)
+            t(12) = t(11);
+        end
+        if (opt.do_fix_da)            
+            t(3)  = t(4) * (1 + 2 * t(5)) / 3;
+        end
+        if (opt.do_tortuosity)
+            t(5)  = t(2) / (3 - 2 * t(2));
+        end
         % m2t
         m = t .* unit_to_SI;
-        
+                
         % signal prediction
-        s = smr_fit2data(m, xps);
-        
+        s = smr_fit2data(m, xps);        
         
         % Penalties for keeping both da/r_z within [0.2 4]
         %
@@ -90,8 +100,22 @@ for c_rep = 1:opt.n_rep
         t = t_tmp;
     end
 end
-
 %
-m = [t .* unit_to_SI  (r / sum(ind))];
+if (opt.do_fix_t2)
+    t(12) = t(11);
+end
+if (opt.do_fix_da)
+    t(3)  = t(4) * (1 + 2 * t(5)) / 3;
+end
+if (opt.do_tortuosity)
+    t(5)  = t(2) / (3 - 2 * t(2));
+end
+%
+m_tmp = t .* unit_to_SI;
+%
+s_fit = smr_fit2data(m_tmp, xps);
+ssr   = sum( (signal - s_fit).^2);
+%
+m = [m_tmp ssr];
 
 end

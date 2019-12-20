@@ -1,20 +1,20 @@
 function smr_optimize_master(output_dir, test_nr, n_worker, do_parallel)
 %
 if (nargin < 1), output_dir = fullfile(pwd, 'optimization', 'output'); end
-if (nargin < 2), test_nr     = 7; end 
-if (nargin < 3), n_worker    = 1; end
+if (nargin < 2), test_nr     = 1; end 
+if (nargin < 3), n_worker    = 2; end
 if (nargin < 4), do_parallel = 0; end
 %
 if (numel(test_nr) > 1)
     if (n_worker > 1)
         parpool(n_worker);
         parfor c_test = 1:numel(test_nr)
-            smr_optimize_master(test_nr(c_test), 1, 1);
+            smr_optimize_master(output_dir, test_nr(c_test), 1, 1);
         end
-        my_parpool(-1);
+        delete(gcp('nocreate'))
     else
         for c_test = 1:numel(test_nr)
-            smr_optimize_master(test_nr(c_test));
+            smr_optimize_master(output_dir, test_nr(c_test), 1, 0);
         end
     end
     return;
@@ -27,15 +27,14 @@ end
 
 % Misc
 %
-do_rerun            = 1;
-
+do_rerun            = 0;
 
 % Standard settings
 %
 opt                         = smr_optimize_opt;
 opt.silence                 = 0;
 opt.do_parallel             = do_parallel;
-opt.discrete_ndir           = [1 6 10 15 30 45];
+opt.discrete_ndir           = [6 10 15 30 45];
 opt.n_shell                 = 10;
 
 % Test-specific settings
@@ -67,7 +66,7 @@ switch test_nr
         test_name           = 'opt_9_shell';
         opt.n_shell         = 9;
         
-    case 7 % 10 shells / free b_delta
+    case 7 % 10 shells
         test_name           = 'opt_10_shell';
         opt.n_shell         = 10;
         
@@ -256,7 +255,7 @@ switch test_nr
         test_name           = 'opt_te50_g200';
         opt.te_min          = 50;
         opt.g_max           = 0.2;
-        
+       
     case 47 % TEmin 60
         test_name           = 'opt_te60_g200';
         opt.te_min          = 60;
@@ -331,11 +330,11 @@ switch test_nr
     case 61 % TEmin 100
         test_name           = 'opt_te100_ginf';
         opt.te_min          = 100;
-        opt.g_max           = 1e6;                                
-  
+        opt.g_max           = 1e6;            
+      
 end
 
-% Derive some options fieldst derived fields
+% Derive some options
 opt = smr_optimize_opt_derive(opt);
 
 %--------------------------------------------------

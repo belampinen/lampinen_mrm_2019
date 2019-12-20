@@ -32,10 +32,11 @@ x       = xps.u(:,1);
 y       = xps.u(:,2);
 z       = xps.u(:,3);
 [phi, theta] = cart2sph(x, y, z);
-phi     = phi + pi;       % [-pi pi]  --> [0 2pi]
-theta   = pi / 2 - theta; % elevation --> inclination
+phi     = phi + pi;       % [-pi pi]  --> [0 2pi], longitude
+theta   = pi / 2 - theta; % latitude  --> co-latitude
 
 %%% Diffusion attenuation
+%
 %
 a_s = -xps.b * di_s .* (1 - xps.b_delta * dd_s);
 a_z = -xps.b * di_z .* (1 - xps.b_delta * dd_z);
@@ -43,37 +44,30 @@ a_z = -xps.b * di_z .* (1 - xps.b_delta * dd_z);
 A_s = 3 * xps.b .* xps.b_delta * di_s * dd_s;
 A_z = 3 * xps.b .* xps.b_delta * di_z * dd_z;
 %
-[C0_s, C2_s] = smr_c0c2(A_s);
-[C0_z, C2_z] = smr_c0c2(A_z);
+[i0_s, i2_s] = smr_i0i2(A_s); % = INT[exp(-A*x^2) * Y_l], 0 to 1 (integrates over Y_l, manus definition is over L_l)
+[i0_z, i2_z] = smr_i0i2(A_z); 
 %
 y20 = smr_spha(2,  0, theta, phi);
 y21 = smr_spha(2,  1, theta, phi);
 y22 = smr_spha(2,  2, theta, phi);
-pys    = ...
+p2m_y2m_sum    = ...
     p20 * y20 + ...
     p21r * ( 2) * real(y21) + ...
     p21i * (-2) * imag(y21) + ...
     p22r * ( 2) * real(y22) + ...
     p22i * (-2) * imag(y22); 
+
+y00 = 1 / sqrt(4 * pi); % By definition
+p00 = 1 / sqrt(4 * pi); % ODF normalization
 %
-% first term is the pa (as in Eriksson 2015) - carries the signal weight
-% second term is the deviation from the pa due to voxel-level anisotropy
-% the px values relative to each other determines the shape of modulation
-% the weight on all px changes the degree of directional modulation
-Ads     = exp(a_s) .* (C0_s/2 + pi * C2_s .* pys);
-Adz     = exp(a_z) .* (C0_z/2 + pi * C2_z .* pys); 
-
-% Already accounted for:
-% y00 = 1 / (2 * sqrt(pi))
-% p00 = 1 / sqrt(pi);          
-% p00 * y00 = 1 / (2 * pi)
-
+Ads     = exp(a_s) .* (i0_s * p00 * y00 * sqrt(4*pi) + i2_s .* p2m_y2m_sum * sqrt(4*pi/5));
+Adz     = exp(a_z) .* (i0_z * p00 * y00 * sqrt(4*pi) + i2_z .* p2m_y2m_sum * sqrt(4*pi/5));
 
 %%% Relaxation attenuation
 %
+%
 At2s = exp(-xps.te/t2_s);
 At2z = exp(-xps.te/t2_z);
-
 
 %%% Signal
 s = s0 * (f * Ads .* At2s + (1 - f) * Adz .* At2z);
@@ -84,14 +78,14 @@ if (do_export)
     export.a_z  = a_z;
     export.A_s  = A_s;
     export.A_z  = A_z;
-    export.C0_s = C0_s;
-    export.C0_z = C0_z;
-    export.C2_s = C2_s;
-    export.C2_z = C2_z;
+    export.i0_s = i0_s;
+    export.i0_z = i0_z;
+    export.i2_s = i2_s;
+    export.i2_z = i2_z;
     export.y20  = y20;
     export.y21  = y21;
     export.y22  = y22;
-    export.pys  = pys;
+    export.p2m_y2m_sum = p2m_y2m_sum;
     export.Ads  = Ads;
     export.Adz  = Adz;
     export.At2s = At2s;

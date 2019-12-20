@@ -71,7 +71,7 @@ switch version
     case {'8.2.0.701 (R2013b)', '8.0.0.783 (R2012b)'}
         f_num = gcf;
         
-    case {'8.4.0.150421 (R2014b)', '8.6.0.267246 (R2015b)'}
+    case {'8.4.0.150421 (R2014b)', '8.6.0.267246 (R2015b)', '9.6.0.1214997 (R2019a) Update 6'}
         fig = gcf;
         f_num = fig.Number;
 end

@@ -1,0 +1,3900 @@
+Run nr: 1 -------------------
+ 
+-------------------------------
+Running SOMA all-to-one with settings:
+n_mig: 200
+n_ind: 32
+step_length: 0.21
+path_length: 2.1
+p: 0.2
+min_decrease: 1e-05
+-------------------------------
+ 
+ 
+migration = 1
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.4       0.8       155       6         
+1.9       0.65      150       30        
+2         0.35      90        45        
+5.3       0.9       90        6         
+
+Vw      = 24184.4551
+t_acq   = 11 min
+g_max   = 67 mT/m, (g_pf = 1)
+snr_min = 4.2, (snr_pf = 1)
+metric: 24184.4551
+ 
+migration = 2
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.4       0.8       155       6         
+1.9       0.65      150       30        
+2         0.35      90        45        
+5.3       0.9       90        6         
+
+Vw      = 24184.4551
+t_acq   = 11 min
+g_max   = 67 mT/m, (g_pf = 1)
+snr_min = 4.2, (snr_pf = 1)
+metric: 24184.4551
+ 
+migration = 3
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.4       0.8       155       6         
+1.9       0.65      150       30        
+2         0.35      90        45        
+5.3       0.9       90        6         
+
+Vw      = 24184.4551
+t_acq   = 11 min
+g_max   = 67 mT/m, (g_pf = 1)
+snr_min = 4.2, (snr_pf = 1)
+metric: 24184.4551
+ 
+migration = 4
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.8       0.95      125       45        
+1.7       0.65      145       30        
+1.9       0.85      90        6         
+3         0.4       95        10        
+
+Vw      = 23473.608
+t_acq   = 10 min
+g_max   = 73 mT/m, (g_pf = 1)
+snr_min = 5.7, (snr_pf = 1)
+metric: 23473.608
+ 
+migration = 5
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.1       0.9       80        6         
+1.6       0.95      205       45        
+1.7       0.8       155       10        
+4.5       0.9       90        6         
+
+Vw      = 20321.692
+t_acq   = 10 min
+g_max   = 57 mT/m, (g_pf = 1)
+snr_min = 2.6, (snr_pf = 1)
+metric: 20321.692
+ 
+migration = 6
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.4       0.95      125       6         
+1.7       0.65      90        45        
+1.7       0.75      180       30        
+5.3       0.8       90        6         
+
+Vw      = 9562.5069
+t_acq   = 12 min
+g_max   = 72 mT/m, (g_pf = 1)
+snr_min = 3.5, (snr_pf = 1)
+metric: 9562.5069
+ 
+migration = 7
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.4       0.65      100       45        
+1.4       1         170       10        
+2.6       0.65      115       45        
+3.8       0.8       90        30        
+
+Vw      = 7977.4381
+t_acq   = 17 min
+g_max   = 61 mT/m, (g_pf = 1)
+snr_min = 4.9, (snr_pf = 1)
+metric: 7977.4381
+ 
+migration = 8
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.4       0.95      125       6         
+1.2       0.75      180       30        
+1.7       0.65      100       45        
+5.3       0.8       90        6         
+
+Vw      = 6322.8524
+t_acq   = 12 min
+g_max   = 72 mT/m, (g_pf = 1)
+snr_min = 3.8, (snr_pf = 1)
+metric: 6322.8524
+ 
+migration = 9
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.4       0.95      125       6         
+1.2       0.75      180       30        
+1.7       0.65      100       45        
+5.3       0.8       90        6         
+
+Vw      = 6322.8524
+t_acq   = 12 min
+g_max   = 72 mT/m, (g_pf = 1)
+snr_min = 3.8, (snr_pf = 1)
+metric: 6322.8524
+ 
+migration = 10
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.4       1         110       6         
+1.1       0.7       185       30        
+1.8       0.75      75        45        
+3.8       0.9       90        15        
+
+Vw      = 5508.1047
+t_acq   = 14 min
+g_max   = 73 mT/m, (g_pf = 1)
+snr_min = 4.4, (snr_pf = 1)
+metric: 5508.1047
+ 
+migration = 11
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.2       0.95      120       6         
+1.1       0.7       185       45        
+1.7       0.65      95        15        
+5.6       0.9       85        6         
+
+Vw      = 3926.0525
+t_acq   = 10 min
+g_max   = 70 mT/m, (g_pf = 1)
+snr_min = 4.2, (snr_pf = 1)
+metric: 3926.0525
+ 
+migration = 12
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.4       0.95      110       6         
+1.1       0.75      180       30        
+1.7       0.65      90        10        
+5.3       0.8       90        6         
+
+Vw      = 3262.5639
+t_acq   = 7.2 min
+g_max   = 72 mT/m, (g_pf = 1)
+snr_min = 3.8, (snr_pf = 1)
+metric: 3262.5639
+ 
+migration = 13
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.5       0.95      115       6         
+1         0.9       190       45        
+2         0.6       100       15        
+4         0.9       85        6         
+
+Vw      = 2636.8122
+t_acq   = 10 min
+g_max   = 59 mT/m, (g_pf = 1)
+snr_min = 4.4, (snr_pf = 1)
+metric: 2636.8122
+ 
+migration = 14
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.4       0.95      110       6         
+1.1       0.9       185       30        
+1.8       0.6       85        10        
+4         0.9       80        15        
+
+Vw      = 2378.8728
+t_acq   = 8.6 min
+g_max   = 71 mT/m, (g_pf = 1)
+snr_min = 4.5, (snr_pf = 1)
+metric: 2378.8728
+ 
+migration = 15
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.4       0.8       90        10        
+1.1       0.9       170       45        
+1.8       0.7       85        30        
+4.8       0.95      85        6         
+
+Vw      = 1949.9033
+t_acq   = 12 min
+g_max   = 60 mT/m, (g_pf = 1)
+snr_min = 5.3, (snr_pf = 1)
+metric: 1949.9033
+ 
+migration = 16
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.5       0.95      75        10        
+1.1       0.9       190       45        
+2         0.6       95        15        
+4         1         80        6         
+
+Vw      = 1508.0952
+t_acq   = 11 min
+g_max   = 60 mT/m, (g_pf = 1)
+snr_min = 4.1, (snr_pf = 1)
+metric: 1508.0952
+ 
+migration = 17
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.4       0.95      75        6         
+1.1       0.9       155       30        
+2.1       0.6       85        10        
+4         1         80        15        
+
+Vw      = 1469.8255
+t_acq   = 7.4 min
+g_max   = 65 mT/m, (g_pf = 1)
+snr_min = 7.2, (snr_pf = 1)
+metric: 1469.8255
+ 
+migration = 18
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.5       0.75      65        15        
+1.1       0.9       165       45        
+2.3       0.75      85        6         
+4.3       1         80        6         
+
+Vw      = 1302.8005
+t_acq   = 9.2 min
+g_max   = 62 mT/m, (g_pf = 1)
+snr_min = 6.2, (snr_pf = 1)
+metric: 1302.8005
+ 
+migration = 19
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.4       0.95      65        10        
+1.1       0.9       185       45        
+2.3       0.75      85        10        
+5.7       1         80        10        
+
+Vw      = 1187.2367
+t_acq   = 11 min
+g_max   = 72 mT/m, (g_pf = 1)
+snr_min = 4.5, (snr_pf = 1)
+metric: 1187.2367
+ 
+migration = 20
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.4       0.95      65        15        
+1.1       0.9       155       45        
+2.3       0.6       85        10        
+6.1       1         80        6         
+
+Vw      = 1081.3221
+t_acq   = 9.2 min
+g_max   = 74 mT/m, (g_pf = 1)
+snr_min = 4.7, (snr_pf = 1)
+metric: 1081.3221
+ 
+migration = 21
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.3       0.95      50        10        
+1         0.95      180       30        
+2.2       0.6       85        10        
+5.7       0.95      85        6         
+
+Vw      = 1050.4448
+t_acq   = 7.7 min
+g_max   = 69 mT/m, (g_pf = 1)
+snr_min = 4.4, (snr_pf = 1)
+metric: 1050.4448
+ 
+migration = 22
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.4       0.95      60        10        
+1.1       0.95      155       45        
+2.2       0.6       85        10        
+6.2       1         80        6         
+
+Vw      = 941.419
+t_acq   = 8.6 min
+g_max   = 75 mT/m, (g_pf = 1)
+snr_min = 4.7, (snr_pf = 1)
+metric: 941.419
+ 
+migration = 23
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.4       0.95      55        6         
+1         0.95      165       30        
+2         0.65      80        10        
+4.8       0.95      80        6         
+
+Vw      = 901.1488
+t_acq   = 6.7 min
+g_max   = 72 mT/m, (g_pf = 1)
+snr_min = 5.7, (snr_pf = 1)
+metric: 901.1488
+ 
+migration = 24
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.4       0.95      55        6         
+1.1       1         155       45        
+2.2       0.6       85        10        
+6.2       1         80        6         
+
+Vw      = 855.2771
+t_acq   = 8.2 min
+g_max   = 75 mT/m, (g_pf = 1)
+snr_min = 4.7, (snr_pf = 1)
+metric: 855.2771
+ 
+migration = 25
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.4       0.95      55        6         
+1         0.95      160       30        
+2.2       0.65      85        10        
+6.2       1         80        6         
+
+Vw      = 843.352
+t_acq   = 6.5 min
+g_max   = 75 mT/m, (g_pf = 1)
+snr_min = 4.7, (snr_pf = 1)
+metric: 843.352
+ 
+migration = 26
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.4       0.95      55        6         
+1.1       1         155       30        
+2.2       0.65      85        10        
+6.2       1         80        6         
+
+Vw      = 830.667
+t_acq   = 6.3 min
+g_max   = 75 mT/m, (g_pf = 1)
+snr_min = 4.7, (snr_pf = 1)
+metric: 830.667
+ 
+migration = 27
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.4       0.95      55        6         
+1         1         160       30        
+2.1       0.65      80        10        
+4.8       1         80        6         
+
+Vw      = 812.9385
+t_acq   = 6.5 min
+g_max   = 74 mT/m, (g_pf = 1)
+snr_min = 6, (snr_pf = 1)
+metric: 812.9385
+ 
+migration = 28
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.5       0.95      55        10        
+1         1         155       30        
+2.5       0.65      90        10        
+5.7       1         80        6         
+
+Vw      = 792.2385
+t_acq   = 6.8 min
+g_max   = 72 mT/m, (g_pf = 1)
+snr_min = 5, (snr_pf = 1)
+metric: 792.2385
+ 
+migration = 29
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.5       0.95      55        10        
+1         1         155       45        
+2.3       0.65      85        10        
+5.7       1         80        6         
+
+Vw      = 762.244
+t_acq   = 8.6 min
+g_max   = 72 mT/m, (g_pf = 1)
+snr_min = 5, (snr_pf = 1)
+metric: 762.244
+ 
+migration = 30
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.5       0.95      55        10        
+1         1         155       45        
+2.7       0.65      85        10        
+6.1       1         80        6         
+
+Vw      = 752.0711
+t_acq   = 8.6 min
+g_max   = 74 mT/m, (g_pf = 1)
+snr_min = 4.7, (snr_pf = 1)
+metric: 752.0711
+ 
+migration = 31
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.5       0.95      55        10        
+1         1         155       45        
+2.5       0.65      85        10        
+5.9       1         80        6         
+
+Vw      = 749.3117
+t_acq   = 8.6 min
+g_max   = 73 mT/m, (g_pf = 1)
+snr_min = 4.9, (snr_pf = 1)
+metric: 749.3117
+ 
+migration = 32
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.5       1         55        10        
+1         1         150       45        
+2.4       0.65      85        10        
+6         1         80        6         
+
+Vw      = 736.2504
+t_acq   = 8.4 min
+g_max   = 73 mT/m, (g_pf = 1)
+snr_min = 4.8, (snr_pf = 1)
+metric: 736.2504
+ 
+migration = 33
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.5       1         55        10        
+1         1         155       45        
+2.5       0.65      85        15        
+6         1         80        6         
+
+Vw      = 731.7478
+t_acq   = 9.2 min
+g_max   = 73 mT/m, (g_pf = 1)
+snr_min = 4.8, (snr_pf = 1)
+metric: 731.7478
+ 
+migration = 34
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.5       1         55        10        
+1         1         150       45        
+2.4       0.65      85        15        
+6.2       1         80        6         
+
+Vw      = 726.2763
+t_acq   = 9 min
+g_max   = 75 mT/m, (g_pf = 1)
+snr_min = 4.7, (snr_pf = 1)
+metric: 726.2763
+ 
+migration = 35
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.5       1         55        10        
+1         1         145       45        
+2.5       0.65      85        15        
+6         1         80        6         
+
+Vw      = 724.8507
+t_acq   = 8.7 min
+g_max   = 73 mT/m, (g_pf = 1)
+snr_min = 4.8, (snr_pf = 1)
+metric: 724.8507
+ 
+migration = 36
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.5       1         55        10        
+1         1         145       45        
+2.6       0.65      85        15        
+6.1       1         80        6         
+
+Vw      = 723.9592
+t_acq   = 8.7 min
+g_max   = 74 mT/m, (g_pf = 1)
+snr_min = 4.7, (snr_pf = 1)
+metric: 723.9592
+ 
+migration = 37
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.5       1         55        10        
+0.9       1         145       45        
+2.4       0.65      85        15        
+6.1       1         80        6         
+
+Vw      = 716.9549
+t_acq   = 8.7 min
+g_max   = 74 mT/m, (g_pf = 1)
+snr_min = 4.7, (snr_pf = 1)
+metric: 716.9549
+ 
+migration = 38
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.5       1         55        10        
+0.9       1         145       45        
+2.6       0.65      85        15        
+6.1       1         80        6         
+
+Vw      = 714.884
+t_acq   = 8.7 min
+g_max   = 74 mT/m, (g_pf = 1)
+snr_min = 4.7, (snr_pf = 1)
+metric: 714.884
+ 
+migration = 39
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.5       1         55        10        
+0.9       1         145       45        
+2.5       0.65      85        15        
+6.2       1         80        6         
+
+Vw      = 713.4132
+t_acq   = 8.7 min
+g_max   = 75 mT/m, (g_pf = 1)
+snr_min = 4.7, (snr_pf = 1)
+metric: 713.4132
+ 
+migration = 40
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.5       1         55        10        
+0.9       1         145       45        
+2.5       0.65      85        15        
+6.2       1         80        6         
+
+Vw      = 713.4132
+t_acq   = 8.7 min
+g_max   = 75 mT/m, (g_pf = 1)
+snr_min = 4.7, (snr_pf = 1)
+metric: 713.4132
+ 
+migration = 41
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.5       1         55        10        
+0.9       1         145       45        
+2.5       0.65      85        15        
+6.2       1         80        6         
+
+Vw      = 713.4132
+t_acq   = 8.7 min
+g_max   = 75 mT/m, (g_pf = 1)
+snr_min = 4.7, (snr_pf = 1)
+metric: 713.4132
+ 
+migration = 42
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.5       1         55        10        
+0.9       1         145       45        
+2.5       0.65      85        15        
+6.2       1         80        6         
+
+Vw      = 713.4132
+t_acq   = 8.7 min
+g_max   = 75 mT/m, (g_pf = 1)
+snr_min = 4.7, (snr_pf = 1)
+metric: 713.4132
+ 
+migration = 43
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.5       1         55        10        
+0.9       1         145       45        
+2.5       0.65      85        15        
+6.2       1         80        6         
+
+Vw      = 713.4132
+t_acq   = 8.7 min
+g_max   = 75 mT/m, (g_pf = 1)
+snr_min = 4.7, (snr_pf = 1)
+metric: 713.4132
+Secondary termination condition reached
+ 
+ 
+Run nr: 2 -------------------
+ 
+-------------------------------
+Running SOMA all-to-one with settings:
+n_mig: 200
+n_ind: 32
+step_length: 0.21
+path_length: 2.1
+p: 0.2
+min_decrease: 1e-05
+-------------------------------
+ 
+ 
+migration = 1
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.6       -0.45     280       15        
+1.2       -0.4      85        45        
+1.4       0.45      95        15        
+1.4       -0.15     170       10        
+
+Vw      = 342102.6309
+t_acq   = 17 min
+g_max   = 55 mT/m, (g_pf = 1)
+snr_min = 1.3, (snr_pf = 1216.6803)
+metric: 416229531.6024
+ 
+migration = 2
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.6       0.55      230       10        
+1.8       0.4       125       15        
+3         0.6       130       45        
+3         -0.1      145       45        
+
+Vw      = 11570584.3593
+t_acq   = 20 min
+g_max   = 40 mT/m, (g_pf = 1)
+snr_min = 2.7, (snr_pf = 1)
+metric: 11570584.3593
+ 
+migration = 3
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.6       0.9       120       6         
+0.9       0.25      200       15        
+1.3       0.6       85        6         
+2.8       0.95      90        15        
+
+Vw      = 29186.6829
+t_acq   = 6.4 min
+g_max   = 51 mT/m, (g_pf = 1)
+snr_min = 3.9, (snr_pf = 1)
+metric: 29186.6829
+ 
+migration = 4
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.6       0.9       120       6         
+0.9       0.25      200       15        
+1.3       0.6       85        6         
+2.8       0.95      90        15        
+
+Vw      = 29186.6829
+t_acq   = 6.4 min
+g_max   = 51 mT/m, (g_pf = 1)
+snr_min = 3.9, (snr_pf = 1)
+metric: 29186.6829
+ 
+migration = 5
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.4       0.9       150       45        
+1.3       0.65      80        15        
+2         -0.45     160       45        
+4.2       0.8       135       6         
+
+Vw      = 10273.2841
+t_acq   = 14 min
+g_max   = 58 mT/m, (g_pf = 1)
+snr_min = 2.6, (snr_pf = 1)
+metric: 10273.2841
+ 
+migration = 6
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.4       0.9       150       45        
+1.3       0.65      80        15        
+2         -0.45     160       45        
+4.2       0.8       135       6         
+
+Vw      = 10273.2841
+t_acq   = 14 min
+g_max   = 58 mT/m, (g_pf = 1)
+snr_min = 2.6, (snr_pf = 1)
+metric: 10273.2841
+ 
+migration = 7
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.4       0.9       150       45        
+1.3       0.65      80        15        
+2         -0.45     160       45        
+4.2       0.8       135       6         
+
+Vw      = 10273.2841
+t_acq   = 14 min
+g_max   = 58 mT/m, (g_pf = 1)
+snr_min = 2.6, (snr_pf = 1)
+metric: 10273.2841
+ 
+migration = 8
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.9       0.8       140       15        
+1.1       -0.5      85        15        
+2.2       -0.5      155       30        
+3.6       0.8       130       6         
+
+Vw      = 7055.5836
+t_acq   = 8 min
+g_max   = 44 mT/m, (g_pf = 1)
+snr_min = 3.4, (snr_pf = 1)
+metric: 7055.5836
+ 
+migration = 9
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.4       0.9       150       45        
+1.1       0.65      80        15        
+2         -0.5      155       30        
+3.6       0.8       135       6         
+
+Vw      = 6404.1147
+t_acq   = 12 min
+g_max   = 53 mT/m, (g_pf = 1)
+snr_min = 3.2, (snr_pf = 1)
+metric: 6404.1147
+ 
+migration = 10
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.9       0.8       140       15        
+1.1       -0.5      80        15        
+2.2       -0.5      150       30        
+3.6       0.8       130       6         
+
+Vw      = 5654.6754
+t_acq   = 7.8 min
+g_max   = 53 mT/m, (g_pf = 1)
+snr_min = 3.4, (snr_pf = 1)
+metric: 5654.6754
+ 
+migration = 11
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+1         0.9       150       45        
+1.1       0.65      80        15        
+2.3       -0.5      155       30        
+3.6       0.8       135       6         
+
+Vw      = 4574.6468
+t_acq   = 12 min
+g_max   = 53 mT/m, (g_pf = 1)
+snr_min = 3.2, (snr_pf = 1)
+metric: 4574.6468
+ 
+migration = 12
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+1         0.95      125       15        
+1.2       -0.45     75        30        
+1.7       -0.4      150       45        
+4.5       0.75      105       6         
+
+Vw      = 4284.8537
+t_acq   = 11 min
+g_max   = 73 mT/m, (g_pf = 1)
+snr_min = 3.6, (snr_pf = 1)
+metric: 4284.8537
+ 
+migration = 13
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.5       0.95      135       45        
+1         0.7       80        30        
+2.1       -0.5      85        30        
+5.2       0.8       125       10        
+
+Vw      = 4077.9612
+t_acq   = 12 min
+g_max   = 61 mT/m, (g_pf = 1)
+snr_min = 2.4, (snr_pf = 1)
+metric: 4077.9612
+ 
+migration = 14
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.9       0.8       140       15        
+1.2       -0.5      75        15        
+2         -0.5      150       30        
+5.4       0.8       105       6         
+
+Vw      = 3386.6695
+t_acq   = 7.8 min
+g_max   = 67 mT/m, (g_pf = 1)
+snr_min = 3, (snr_pf = 1)
+metric: 3386.6695
+ 
+migration = 15
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+1         0.7       80        30        
+1.1       0.95      135       45        
+2         -0.5      85        30        
+5.2       0.8       95        15        
+
+Vw      = 2972.0935
+t_acq   = 13 min
+g_max   = 65 mT/m, (g_pf = 1)
+snr_min = 3.6, (snr_pf = 1)
+metric: 2972.0935
+ 
+migration = 16
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+1         0.9       150       45        
+1.1       0.65      75        30        
+2.3       -0.5      140       30        
+4.4       0.8       105       6         
+
+Vw      = 2689.8121
+t_acq   = 13 min
+g_max   = 65 mT/m, (g_pf = 1)
+snr_min = 3.8, (snr_pf = 1)
+metric: 2689.8121
+ 
+migration = 17
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.9       0.9       130       45        
+1         0.65      75        30        
+1.8       -0.5      125       15        
+4.5       0.8       95        6         
+
+Vw      = 2167.8777
+t_acq   = 10 min
+g_max   = 62 mT/m, (g_pf = 1)
+snr_min = 4.3, (snr_pf = 1)
+metric: 2167.8777
+ 
+migration = 18
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.9       0.7       75        30        
+1.1       0.95      140       45        
+2.1       -0.45     110       30        
+4.4       0.8       100       10        
+
+Vw      = 1970.3226
+t_acq   = 13 min
+g_max   = 55 mT/m, (g_pf = 1)
+snr_min = 4.1, (snr_pf = 1)
+metric: 1970.3226
+ 
+migration = 19
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+1         0.7       70        30        
+1.1       0.95      135       45        
+2.1       -0.5      120       10        
+5.2       0.8       95        10        
+
+Vw      = 1572.5731
+t_acq   = 10 min
+g_max   = 72 mT/m, (g_pf = 1)
+snr_min = 3.6, (snr_pf = 1)
+metric: 1572.5731
+ 
+migration = 20
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.9       0.65      70        30        
+1         0.95      140       45        
+2         -0.5      125       15        
+4.5       0.8       95        10        
+
+Vw      = 1470.1916
+t_acq   = 11 min
+g_max   = 73 mT/m, (g_pf = 1)
+snr_min = 4.3, (snr_pf = 1)
+metric: 1470.1916
+ 
+migration = 21
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.9       0.65      70        30        
+1         0.95      140       45        
+2         -0.5      125       15        
+4.5       0.8       95        10        
+
+Vw      = 1470.1916
+t_acq   = 11 min
+g_max   = 73 mT/m, (g_pf = 1)
+snr_min = 4.3, (snr_pf = 1)
+metric: 1470.1916
+ 
+migration = 22
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.9       0.65      70        30        
+1         0.95      140       45        
+2         -0.5      125       15        
+4.5       0.8       95        10        
+
+Vw      = 1470.1916
+t_acq   = 11 min
+g_max   = 73 mT/m, (g_pf = 1)
+snr_min = 4.3, (snr_pf = 1)
+metric: 1470.1916
+ 
+migration = 23
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.7       0.65      70        15        
+1         0.95      175       45        
+2         -0.45     125       15        
+4.5       0.8       95        10        
+
+Vw      = 1397.5416
+t_acq   = 11 min
+g_max   = 64 mT/m, (g_pf = 1)
+snr_min = 4.3, (snr_pf = 1)
+metric: 1397.5416
+ 
+migration = 24
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.8       0.95      70        15        
+1         1         150       30        
+1.7       -0.5      120       10        
+4.6       0.8       90        6         
+
+Vw      = 1103.5603
+t_acq   = 7.2 min
+g_max   = 67 mT/m, (g_pf = 1)
+snr_min = 4.5, (snr_pf = 1)
+metric: 1103.5603
+ 
+migration = 25
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.8       0.95      65        15        
+1         0.95      145       30        
+2.1       -0.45     120       10        
+4.4       0.8       90        6         
+
+Vw      = 1069.7123
+t_acq   = 7 min
+g_max   = 66 mT/m, (g_pf = 1)
+snr_min = 4.8, (snr_pf = 1)
+metric: 1069.7123
+ 
+migration = 26
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.8       0.95      65        15        
+1         0.95      145       30        
+2.1       -0.45     120       10        
+4.4       0.8       90        6         
+
+Vw      = 1069.7123
+t_acq   = 7 min
+g_max   = 66 mT/m, (g_pf = 1)
+snr_min = 4.8, (snr_pf = 1)
+metric: 1069.7123
+ 
+migration = 27
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.8       0.95      65        15        
+1.1       0.95      145       45        
+2         -0.5      115       15        
+4.3       0.8       90        10        
+
+Vw      = 970.8132
+t_acq   = 9.8 min
+g_max   = 65 mT/m, (g_pf = 1)
+snr_min = 4.9, (snr_pf = 1)
+metric: 970.8132
+ 
+migration = 28
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.8       0.95      65        15        
+1         1         145       45        
+2.1       -0.45     115       15        
+4.4       0.8       90        10        
+
+Vw      = 935.259
+t_acq   = 9.8 min
+g_max   = 66 mT/m, (g_pf = 1)
+snr_min = 4.8, (snr_pf = 1)
+metric: 935.259
+ 
+migration = 29
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.8       0.95      65        15        
+1         1         145       45        
+2.1       -0.5      115       10        
+4.1       0.8       90        10        
+
+Vw      = 885.9638
+t_acq   = 9.2 min
+g_max   = 63 mT/m, (g_pf = 1)
+snr_min = 5.2, (snr_pf = 1)
+metric: 885.9638
+ 
+migration = 30
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.8       0.95      65        15        
+1         1         140       45        
+1.8       -0.5      115       15        
+4         0.8       85        6         
+
+Vw      = 868.4875
+t_acq   = 9 min
+g_max   = 70 mT/m, (g_pf = 1)
+snr_min = 5.8, (snr_pf = 1)
+metric: 868.4875
+ 
+migration = 31
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.8       0.95      65        15        
+1         1         145       45        
+2.1       -0.5      115       10        
+4.1       0.8       85        10        
+
+Vw      = 853.2177
+t_acq   = 9.2 min
+g_max   = 70 mT/m, (g_pf = 1)
+snr_min = 5.6, (snr_pf = 1)
+metric: 853.2177
+ 
+migration = 32
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.8       1         60        15        
+1         1         150       45        
+2.1       -0.5      115       10        
+4.3       0.8       85        15        
+
+Vw      = 817.0045
+t_acq   = 10 min
+g_max   = 72 mT/m, (g_pf = 1)
+snr_min = 5.3, (snr_pf = 1)
+metric: 817.0045
+ 
+migration = 33
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.8       1         60        15        
+1.1       1         145       45        
+2.2       -0.5      110       15        
+4.4       0.8       85        6         
+
+Vw      = 769.4959
+t_acq   = 9.3 min
+g_max   = 73 mT/m, (g_pf = 1)
+snr_min = 5.1, (snr_pf = 1)
+metric: 769.4959
+ 
+migration = 34
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.7       0.95      60        15        
+1         1         140       45        
+2         -0.5      105       15        
+4.2       0.8       85        10        
+
+Vw      = 737.1415
+t_acq   = 9.5 min
+g_max   = 71 mT/m, (g_pf = 1)
+snr_min = 5.4, (snr_pf = 1)
+metric: 737.1415
+ 
+migration = 35
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.7       1         60        15        
+1         1         140       45        
+2.2       -0.5      105       10        
+4.3       0.8       85        15        
+
+Vw      = 713.7552
+t_acq   = 9.5 min
+g_max   = 72 mT/m, (g_pf = 1)
+snr_min = 5.3, (snr_pf = 1)
+metric: 713.7552
+ 
+migration = 36
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.7       1         60        15        
+1         1         150       45        
+2.4       -0.5      95        10        
+4.3       0.8       85        6         
+
+Vw      = 695.3978
+t_acq   = 9 min
+g_max   = 72 mT/m, (g_pf = 1)
+snr_min = 5.3, (snr_pf = 1)
+metric: 695.3978
+ 
+migration = 37
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.7       1         60        15        
+1         1         150       45        
+2.4       -0.5      105       10        
+4         0.75      85        10        
+
+Vw      = 686.1603
+t_acq   = 9.5 min
+g_max   = 75 mT/m, (g_pf = 1)
+snr_min = 5.6, (snr_pf = 1)
+metric: 686.1603
+ 
+migration = 38
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.7       1         60        15        
+1         1         145       45        
+2.5       -0.5      100       10        
+4.1       0.8       85        10        
+
+Vw      = 668.4455
+t_acq   = 9.2 min
+g_max   = 70 mT/m, (g_pf = 1)
+snr_min = 5.6, (snr_pf = 1)
+metric: 668.4455
+ 
+migration = 39
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.7       1         60        15        
+1         1         145       45        
+2.4       -0.5      100       10        
+3.9       0.8       85        10        
+
+Vw      = 665.5132
+t_acq   = 9.2 min
+g_max   = 69 mT/m, (g_pf = 1)
+snr_min = 6, (snr_pf = 1)
+metric: 665.5132
+ 
+migration = 40
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.7       1         60        15        
+1         1         145       45        
+2.4       -0.5      100       10        
+3.7       0.8       85        10        
+
+Vw      = 661.2774
+t_acq   = 9.2 min
+g_max   = 67 mT/m, (g_pf = 1)
+snr_min = 6.4, (snr_pf = 1)
+metric: 661.2774
+ 
+migration = 41
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.6       1         60        15        
+1         1         145       45        
+2.6       -0.5      100       10        
+4         0.8       85        10        
+
+Vw      = 658.7429
+t_acq   = 9.2 min
+g_max   = 70 mT/m, (g_pf = 1)
+snr_min = 5.8, (snr_pf = 1)
+metric: 658.7429
+ 
+migration = 42
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.6       1         60        15        
+1         1         145       45        
+2.4       -0.5      100       10        
+3.6       0.8       85        10        
+
+Vw      = 653.7304
+t_acq   = 9.2 min
+g_max   = 66 mT/m, (g_pf = 1)
+snr_min = 6.6, (snr_pf = 1)
+metric: 653.7304
+ 
+migration = 43
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.6       1         60        15        
+1         1         145       45        
+2.4       -0.5      100       10        
+3.6       0.8       85        10        
+
+Vw      = 653.7304
+t_acq   = 9.2 min
+g_max   = 66 mT/m, (g_pf = 1)
+snr_min = 6.6, (snr_pf = 1)
+metric: 653.7304
+ 
+migration = 44
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.6       1         60        15        
+1         1         145       45        
+2.4       -0.5      100       10        
+3.6       0.8       85        10        
+
+Vw      = 653.7304
+t_acq   = 9.2 min
+g_max   = 66 mT/m, (g_pf = 1)
+snr_min = 6.6, (snr_pf = 1)
+metric: 653.7304
+ 
+migration = 45
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.6       1         60        15        
+1         1         145       45        
+2.4       -0.5      100       10        
+3.6       0.8       85        10        
+
+Vw      = 653.7304
+t_acq   = 9.2 min
+g_max   = 66 mT/m, (g_pf = 1)
+snr_min = 6.6, (snr_pf = 1)
+metric: 653.7304
+ 
+migration = 46
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.5       0.95      60        15        
+1         1         150       45        
+2.4       -0.5      95        10        
+4.1       0.9       80        10        
+
+Vw      = 629.4789
+t_acq   = 9.5 min
+g_max   = 72 mT/m, (g_pf = 1)
+snr_min = 6.5, (snr_pf = 1)
+metric: 629.4789
+ 
+migration = 47
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.5       1         60        15        
+1         1         145       45        
+2.4       -0.5      95        10        
+4.1       0.95      80        10        
+
+Vw      = 627.5229
+t_acq   = 9.2 min
+g_max   = 66 mT/m, (g_pf = 1)
+snr_min = 6.8, (snr_pf = 1)
+metric: 627.5229
+ 
+migration = 48
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.5       1         60        15        
+1         1         145       45        
+2.5       -0.5      100       10        
+3.8       0.9       80        10        
+
+Vw      = 620.9997
+t_acq   = 9.2 min
+g_max   = 69 mT/m, (g_pf = 1)
+snr_min = 7.1, (snr_pf = 1)
+metric: 620.9997
+ 
+migration = 49
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.5       1         60        15        
+1         1         145       45        
+2.4       -0.5      95        10        
+3.6       0.9       80        10        
+
+Vw      = 604.8519
+t_acq   = 9.2 min
+g_max   = 67 mT/m, (g_pf = 1)
+snr_min = 7.6, (snr_pf = 1)
+metric: 604.8519
+ 
+migration = 50
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.6       1         60        15        
+1         1         145       45        
+2.4       -0.5      95        10        
+3.7       0.85      80        10        
+
+Vw      = 599.3878
+t_acq   = 9.2 min
+g_max   = 74 mT/m, (g_pf = 1)
+snr_min = 7.1, (snr_pf = 1)
+metric: 599.3878
+ 
+migration = 51
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.6       1         60        15        
+1         1         145       45        
+2.4       -0.5      95        10        
+3.6       0.85      80        10        
+
+Vw      = 598.4879
+t_acq   = 9.2 min
+g_max   = 73 mT/m, (g_pf = 1)
+snr_min = 7.4, (snr_pf = 1)
+metric: 598.4879
+ 
+migration = 52
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.5       1         60        15        
+1         1         145       45        
+2.5       -0.5      95        10        
+3.6       0.85      80        10        
+
+Vw      = 593.7618
+t_acq   = 9.2 min
+g_max   = 73 mT/m, (g_pf = 1)
+snr_min = 7.4, (snr_pf = 1)
+metric: 593.7618
+ 
+migration = 53
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.5       1         60        15        
+1         1         145       45        
+2.5       -0.5      95        10        
+3.7       0.85      80        10        
+
+Vw      = 593.0348
+t_acq   = 9.2 min
+g_max   = 74 mT/m, (g_pf = 1)
+snr_min = 7.1, (snr_pf = 1)
+metric: 593.0348
+ 
+migration = 54
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.5       1         60        15        
+1         1         145       45        
+2.5       -0.5      95        10        
+3.7       0.85      80        10        
+
+Vw      = 593.0348
+t_acq   = 9.2 min
+g_max   = 74 mT/m, (g_pf = 1)
+snr_min = 7.1, (snr_pf = 1)
+metric: 593.0348
+ 
+migration = 55
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.5       1         60        15        
+1         1         145       45        
+2.5       -0.5      95        10        
+3.7       0.85      80        10        
+
+Vw      = 593.0348
+t_acq   = 9.2 min
+g_max   = 74 mT/m, (g_pf = 1)
+snr_min = 7.1, (snr_pf = 1)
+metric: 593.0348
+ 
+migration = 56
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.5       1         60        15        
+1         1         145       45        
+2.5       -0.5      95        10        
+3.7       0.85      80        10        
+
+Vw      = 593.0348
+t_acq   = 9.2 min
+g_max   = 74 mT/m, (g_pf = 1)
+snr_min = 7.1, (snr_pf = 1)
+metric: 593.0348
+ 
+migration = 57
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.5       1         60        15        
+1         1         145       45        
+2.5       -0.5      95        10        
+3.7       0.85      80        10        
+
+Vw      = 593.0348
+t_acq   = 9.2 min
+g_max   = 74 mT/m, (g_pf = 1)
+snr_min = 7.1, (snr_pf = 1)
+metric: 593.0348
+Secondary termination condition reached
+ 
+ 
+Run nr: 3 -------------------
+ 
+-------------------------------
+Running SOMA all-to-one with settings:
+n_mig: 200
+n_ind: 32
+step_length: 0.21
+path_length: 2.1
+p: 0.2
+min_decrease: 1e-05
+-------------------------------
+ 
+ 
+migration = 1
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.9       0.25      75        15        
+1         0.7       120       30        
+1.2       0.6       215       6         
+4.1       -0.35     105       6         
+
+Vw      = 2275483.1799
+t_acq   = 9.2 min
+g_max   = 75 mT/m, (g_pf = 1)
+snr_min = 2.6, (snr_pf = 1)
+metric: 2275483.1799
+ 
+migration = 2
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.5       0.7       105       15        
+1         0.65      90        10        
+1.8       0.85      195       30        
+2.8       0.45      150       30        
+
+Vw      = 39105.1802
+t_acq   = 13 min
+g_max   = 38 mT/m, (g_pf = 1)
+snr_min = 2.7, (snr_pf = 1)
+metric: 39105.1802
+ 
+migration = 3
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.5       0.7       105       15        
+1         0.65      90        10        
+1.8       0.85      195       30        
+2.8       0.45      150       30        
+
+Vw      = 39105.1802
+t_acq   = 13 min
+g_max   = 38 mT/m, (g_pf = 1)
+snr_min = 2.7, (snr_pf = 1)
+metric: 39105.1802
+ 
+migration = 4
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.8       0.7       120       30        
+0.9       0.85      125       15        
+1.1       0.6       85        6         
+3.6       -0.35     105       30        
+
+Vw      = 17160.0293
+t_acq   = 8.2 min
+g_max   = 69 mT/m, (g_pf = 1)
+snr_min = 3.6, (snr_pf = 1)
+metric: 17160.0293
+ 
+migration = 5
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.9       0.85      95        6         
+1         0.6       175       30        
+2.2       0.7       120       30        
+2.9       0.45      105       45        
+
+Vw      = 12562.4029
+t_acq   = 15 min
+g_max   = 58 mT/m, (g_pf = 1)
+snr_min = 5.5, (snr_pf = 1)
+metric: 12562.4029
+ 
+migration = 6
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.2       0.8       140       10        
+1.3       -0.35     145       6         
+1.4       0.75      170       30        
+1.8       0.4       90        10        
+
+Vw      = 9012.0103
+t_acq   = 7.4 min
+g_max   = 62 mT/m, (g_pf = 1)
+snr_min = 4.8, (snr_pf = 1)
+metric: 9012.0103
+ 
+migration = 7
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.7       0.7       85        10        
+0.8       -0.45     155       10        
+0.9       0.8       135       10        
+3.6       0.25      105       10        
+
+Vw      = 8640.221
+t_acq   = 4.9 min
+g_max   = 70 mT/m, (g_pf = 1)
+snr_min = 3.1, (snr_pf = 1)
+metric: 8640.221
+ 
+migration = 8
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.6       0.95      85        15        
+1.2       0.9       70        10        
+1.6       0.65      145       30        
+3.1       -0.45     90        10        
+
+Vw      = 3421.1821
+t_acq   = 7.5 min
+g_max   = 73 mT/m, (g_pf = 1)
+snr_min = 6.3, (snr_pf = 1)
+metric: 3421.1821
+ 
+migration = 9
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.6       0.95      85        15        
+1.2       0.9       70        10        
+1.6       0.65      145       30        
+3.1       -0.45     90        10        
+
+Vw      = 3421.1821
+t_acq   = 7.5 min
+g_max   = 73 mT/m, (g_pf = 1)
+snr_min = 6.3, (snr_pf = 1)
+metric: 3421.1821
+ 
+migration = 10
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.6       0.95      85        15        
+1.2       0.9       70        10        
+1.6       0.65      145       30        
+3.1       -0.45     90        10        
+
+Vw      = 3421.1821
+t_acq   = 7.5 min
+g_max   = 73 mT/m, (g_pf = 1)
+snr_min = 6.3, (snr_pf = 1)
+metric: 3421.1821
+ 
+migration = 11
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.6       0.95      85        15        
+1.2       0.9       70        10        
+1.6       0.65      145       30        
+3.1       -0.45     90        10        
+
+Vw      = 3421.1821
+t_acq   = 7.5 min
+g_max   = 73 mT/m, (g_pf = 1)
+snr_min = 6.3, (snr_pf = 1)
+metric: 3421.1821
+ 
+migration = 12
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.6       0.95      85        15        
+1.2       0.9       70        10        
+1.6       0.65      145       30        
+3.1       -0.45     90        10        
+
+Vw      = 3421.1821
+t_acq   = 7.5 min
+g_max   = 73 mT/m, (g_pf = 1)
+snr_min = 6.3, (snr_pf = 1)
+metric: 3421.1821
+Secondary termination condition reached
+ 
+ 
+Run nr: 4 -------------------
+ 
+-------------------------------
+Running SOMA all-to-one with settings:
+n_mig: 200
+n_ind: 32
+step_length: 0.21
+path_length: 2.1
+p: 0.2
+min_decrease: 1e-05
+-------------------------------
+ 
+ 
+migration = 1
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+1.5       0.75      280       45        
+2         0.35      170       10        
+4         -0.45     160       15        
+7.4       0.9       170       10        
+
+Vw      = 154436.4427
+t_acq   = 16 min
+g_max   = 31 mT/m, (g_pf = 1)
+snr_min = 0.82, (snr_pf = 3470.3513)
+metric: 535948703.6053
+ 
+migration = 2
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+1.1       -0.35     120       10        
+1.4       0.3       80        45        
+2.3       0.95      160       10        
+3.3       0.65      160       10        
+
+Vw      = 160607.9538
+t_acq   = 9.4 min
+g_max   = 76 mT/m, (g_pf = 313.6619)
+snr_min = 2.3, (snr_pf = 1)
+metric: 50376597.821
+ 
+migration = 3
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+1.1       -0.3      170       15        
+1.6       -0.35     185       10        
+2         0.45      180       10        
+3.4       -0.2      135       6         
+
+Vw      = 457317.144
+t_acq   = 5.8 min
+g_max   = 48 mT/m, (g_pf = 1)
+snr_min = 2.4, (snr_pf = 1)
+metric: 457317.144
+ 
+migration = 4
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.9       0.8       110       45        
+1.5       0.95      80        6         
+1.7       0.3       200       15        
+3.6       0.9       150       10        
+
+Vw      = 76955.9566
+t_acq   = 12 min
+g_max   = 40 mT/m, (g_pf = 1)
+snr_min = 2.4, (snr_pf = 1)
+metric: 76955.9566
+ 
+migration = 5
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.3       0.3       145       6         
+0.9       0.7       205       6         
+2         0.7       95        10        
+2.6       0.95      80        10        
+
+Vw      = 19806.6612
+t_acq   = 5 min
+g_max   = 53 mT/m, (g_pf = 1)
+snr_min = 3.6, (snr_pf = 1)
+metric: 19806.6612
+ 
+migration = 6
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.5       0.4       80        6         
+0.9       0.8       190       45        
+1.7       0.3       115       10        
+3.6       0.9       150       10        
+
+Vw      = 11837.084
+t_acq   = 10 min
+g_max   = 43 mT/m, (g_pf = 1)
+snr_min = 2.7, (snr_pf = 1)
+metric: 11837.084
+ 
+migration = 7
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.3       0.3       105       6         
+0.9       0.75      195       6         
+2         0.7       95        10        
+2.6       0.95      80        10        
+
+Vw      = 8248.3909
+t_acq   = 4.7 min
+g_max   = 53 mT/m, (g_pf = 1)
+snr_min = 4.3, (snr_pf = 1)
+metric: 8248.3909
+ 
+migration = 8
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.4       0.4       95        6         
+0.9       0.8       190       45        
+1.7       0.55      100       10        
+3.6       0.9       105       10        
+
+Vw      = 5937.6116
+t_acq   = 10 min
+g_max   = 46 mT/m, (g_pf = 1)
+snr_min = 4.6, (snr_pf = 1)
+metric: 5937.6116
+ 
+migration = 9
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.4       0.4       70        10        
+0.8       0.8       175       30        
+2.1       0.8       105       6         
+3.3       1         75        10        
+
+Vw      = 3143.171
+t_acq   = 7.6 min
+g_max   = 66 mT/m, (g_pf = 1)
+snr_min = 6.3, (snr_pf = 1)
+metric: 3143.171
+ 
+migration = 10
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.4       0.4       70        10        
+0.8       0.8       175       30        
+2.1       0.8       105       6         
+3.3       1         75        10        
+
+Vw      = 3143.171
+t_acq   = 7.6 min
+g_max   = 66 mT/m, (g_pf = 1)
+snr_min = 6.3, (snr_pf = 1)
+metric: 3143.171
+ 
+migration = 11
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.4       0.4       75        10        
+0.9       0.8       190       45        
+1.7       0.55      100       10        
+3.4       0.9       80        10        
+
+Vw      = 2795.2613
+t_acq   = 11 min
+g_max   = 65 mT/m, (g_pf = 1)
+snr_min = 4.6, (snr_pf = 1)
+metric: 2795.2613
+ 
+migration = 12
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.4       0.4       70        10        
+0.8       0.8       175       30        
+2.1       0.4       100       6         
+3.3       0.85      80        10        
+
+Vw      = 2557.5645
+t_acq   = 7.6 min
+g_max   = 70 mT/m, (g_pf = 1)
+snr_min = 6.3, (snr_pf = 1)
+metric: 2557.5645
+ 
+migration = 13
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.4       0.4       70        10        
+0.9       0.8       175       30        
+2         0.7       95        10        
+3.1       0.95      80        10        
+
+Vw      = 2301.6568
+t_acq   = 8.1 min
+g_max   = 59 mT/m, (g_pf = 1)
+snr_min = 5.9, (snr_pf = 1)
+metric: 2301.6568
+ 
+migration = 14
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.5       0.45      75        15        
+0.9       0.9       175       45        
+2.1       0.7       95        15        
+3.7       0.9       80        10        
+
+Vw      = 1863.9888
+t_acq   = 11 min
+g_max   = 68 mT/m, (g_pf = 1)
+snr_min = 5.9, (snr_pf = 1)
+metric: 1863.9888
+ 
+migration = 15
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.5       0.45      75        15        
+0.9       0.9       175       45        
+2.1       0.7       95        15        
+3.7       0.9       80        10        
+
+Vw      = 1863.9888
+t_acq   = 11 min
+g_max   = 68 mT/m, (g_pf = 1)
+snr_min = 5.9, (snr_pf = 1)
+metric: 1863.9888
+ 
+migration = 16
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.5       0.45      70        10        
+1.1       0.95      185       45        
+1.7       -0.45     95        15        
+3.7       0.95      80        10        
+
+Vw      = 1419.0049
+t_acq   = 11 min
+g_max   = 64 mT/m, (g_pf = 1)
+snr_min = 4.5, (snr_pf = 1)
+metric: 1419.0049
+ 
+migration = 17
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.5       0.45      70        10        
+1.1       0.95      185       45        
+1.7       -0.45     95        15        
+3.7       0.95      80        10        
+
+Vw      = 1419.0049
+t_acq   = 11 min
+g_max   = 64 mT/m, (g_pf = 1)
+snr_min = 4.5, (snr_pf = 1)
+metric: 1419.0049
+ 
+migration = 18
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.5       0.45      75        15        
+1.1       0.9       175       45        
+2.1       -0.5      95        15        
+3.7       0.9       80        10        
+
+Vw      = 1296.1762
+t_acq   = 11 min
+g_max   = 68 mT/m, (g_pf = 1)
+snr_min = 5.3, (snr_pf = 1)
+metric: 1296.1762
+ 
+migration = 19
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.4       0.45      65        10        
+1.1       1         195       30        
+2.7       -0.45     95        10        
+3.7       0.9       80        10        
+
+Vw      = 1182.3978
+t_acq   = 8.9 min
+g_max   = 74 mT/m, (g_pf = 1)
+snr_min = 3.9, (snr_pf = 1)
+metric: 1182.3978
+ 
+migration = 20
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.5       0.45      75        10        
+1.1       1         175       45        
+2.6       -0.5      95        15        
+3.7       0.9       80        10        
+
+Vw      = 1174.2339
+t_acq   = 11 min
+g_max   = 68 mT/m, (g_pf = 1)
+snr_min = 5.3, (snr_pf = 1)
+metric: 1174.2339
+ 
+migration = 21
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.4       0.45      65        10        
+1.1       1         170       30        
+2.7       -0.45     95        10        
+3.7       0.9       80        10        
+
+Vw      = 1000.1867
+t_acq   = 7.9 min
+g_max   = 74 mT/m, (g_pf = 1)
+snr_min = 5.8, (snr_pf = 1)
+metric: 1000.1867
+ 
+migration = 22
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.4       0.45      65        10        
+1.1       1         170       30        
+2.7       -0.45     95        10        
+3.7       0.9       80        10        
+
+Vw      = 1000.1867
+t_acq   = 7.9 min
+g_max   = 74 mT/m, (g_pf = 1)
+snr_min = 5.8, (snr_pf = 1)
+metric: 1000.1867
+ 
+migration = 23
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.5       0.75      65        10        
+1.1       1         150       45        
+1.7       -0.4      95        10        
+3.6       0.9       80        10        
+
+Vw      = 948.5271
+t_acq   = 8.9 min
+g_max   = 67 mT/m, (g_pf = 1)
+snr_min = 7.6, (snr_pf = 1)
+metric: 948.5271
+ 
+migration = 24
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.4       0.85      65        10        
+1.1       1         170       30        
+2.7       -0.45     95        10        
+3.7       0.9       80        10        
+
+Vw      = 825.0965
+t_acq   = 7.9 min
+g_max   = 68 mT/m, (g_pf = 1)
+snr_min = 5.8, (snr_pf = 1)
+metric: 825.0965
+ 
+migration = 25
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.5       0.85      65        10        
+1.1       1         175       45        
+2.5       -0.45     95        10        
+3.7       0.9       80        10        
+
+Vw      = 787.6706
+t_acq   = 10 min
+g_max   = 68 mT/m, (g_pf = 1)
+snr_min = 5.3, (snr_pf = 1)
+metric: 787.6706
+ 
+migration = 26
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.5       0.85      60        6         
+1.1       1         175       45        
+2.7       -0.5      90        10        
+3.7       0.9       80        10        
+
+Vw      = 730.2445
+t_acq   = 9.6 min
+g_max   = 71 mT/m, (g_pf = 1)
+snr_min = 5.3, (snr_pf = 1)
+metric: 730.2445
+ 
+migration = 27
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.4       0.8       60        10        
+1.1       0.95      150       45        
+2.4       -0.5      95        10        
+3.7       0.9       80        10        
+
+Vw      = 696.6087
+t_acq   = 8.9 min
+g_max   = 68 mT/m, (g_pf = 1)
+snr_min = 7.4, (snr_pf = 1)
+metric: 696.6087
+ 
+migration = 28
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.5       1         60        10        
+1.1       1         145       45        
+2.5       -0.45     95        10        
+3.7       0.9       80        10        
+
+Vw      = 644.0311
+t_acq   = 8.6 min
+g_max   = 68 mT/m, (g_pf = 1)
+snr_min = 7.4, (snr_pf = 1)
+metric: 644.0311
+ 
+migration = 29
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.5       0.95      55        10        
+1.1       1         150       45        
+2.5       -0.45     95        10        
+3.7       0.9       80        10        
+
+Vw      = 611.775
+t_acq   = 8.9 min
+g_max   = 72 mT/m, (g_pf = 1)
+snr_min = 7.4, (snr_pf = 1)
+metric: 611.775
+ 
+migration = 30
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.5       0.95      55        10        
+1.1       1         155       45        
+2.4       -0.5      95        6         
+3.7       0.9       80        6         
+
+Vw      = 597.9162
+t_acq   = 8.2 min
+g_max   = 72 mT/m, (g_pf = 1)
+snr_min = 7.3, (snr_pf = 1)
+metric: 597.9162
+ 
+migration = 31
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.5       0.95      55        10        
+1.1       1         155       45        
+2.5       -0.5      95        10        
+3.7       0.9       80        10        
+
+Vw      = 582.7308
+t_acq   = 9.1 min
+g_max   = 72 mT/m, (g_pf = 1)
+snr_min = 7.3, (snr_pf = 1)
+metric: 582.7308
+ 
+migration = 32
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.5       1         55        10        
+1         1         145       45        
+2.5       -0.5      95        10        
+3.7       0.9       80        10        
+
+Vw      = 556.364
+t_acq   = 8.6 min
+g_max   = 68 mT/m, (g_pf = 1)
+snr_min = 7.4, (snr_pf = 1)
+metric: 556.364
+ 
+migration = 33
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.5       1         55        10        
+1         1         145       45        
+2.5       -0.5      95        10        
+3.7       0.9       80        10        
+
+Vw      = 556.364
+t_acq   = 8.6 min
+g_max   = 68 mT/m, (g_pf = 1)
+snr_min = 7.4, (snr_pf = 1)
+metric: 556.364
+ 
+migration = 34
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.5       1         55        10        
+1         1         145       45        
+2.5       -0.5      95        10        
+3.7       0.9       80        10        
+
+Vw      = 556.364
+t_acq   = 8.6 min
+g_max   = 68 mT/m, (g_pf = 1)
+snr_min = 7.4, (snr_pf = 1)
+metric: 556.364
+ 
+migration = 35
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.5       1         55        10        
+1         1         145       45        
+2.5       -0.5      95        10        
+3.7       0.9       80        10        
+
+Vw      = 556.364
+t_acq   = 8.6 min
+g_max   = 68 mT/m, (g_pf = 1)
+snr_min = 7.4, (snr_pf = 1)
+metric: 556.364
+ 
+migration = 36
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.5       1         55        10        
+1         1         145       45        
+2.5       -0.5      95        10        
+3.7       0.85      80        10        
+
+Vw      = 547.3758
+t_acq   = 8.6 min
+g_max   = 74 mT/m, (g_pf = 1)
+snr_min = 7.1, (snr_pf = 1)
+metric: 547.3758
+ 
+migration = 37
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.5       1         55        10        
+1         1         145       45        
+2.5       -0.5      95        10        
+3.7       0.85      80        10        
+
+Vw      = 547.3758
+t_acq   = 8.6 min
+g_max   = 74 mT/m, (g_pf = 1)
+snr_min = 7.1, (snr_pf = 1)
+metric: 547.3758
+ 
+migration = 38
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.5       1         55        10        
+1         1         145       45        
+2.5       -0.5      95        10        
+3.7       0.85      80        10        
+
+Vw      = 547.3758
+t_acq   = 8.6 min
+g_max   = 74 mT/m, (g_pf = 1)
+snr_min = 7.1, (snr_pf = 1)
+metric: 547.3758
+ 
+migration = 39
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.5       1         55        10        
+1         1         145       45        
+2.6       -0.5      95        10        
+3.8       0.85      80        10        
+
+Vw      = 547.19
+t_acq   = 8.6 min
+g_max   = 75 mT/m, (g_pf = 1)
+snr_min = 6.9, (snr_pf = 1)
+metric: 547.19
+ 
+migration = 40
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.5       1         55        10        
+1         1         145       45        
+2.6       -0.5      95        10        
+3.8       0.85      80        10        
+
+Vw      = 547.19
+t_acq   = 8.6 min
+g_max   = 75 mT/m, (g_pf = 1)
+snr_min = 6.9, (snr_pf = 1)
+metric: 547.19
+ 
+migration = 41
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.5       1         55        10        
+1         1         145       45        
+2.6       -0.5      95        10        
+3.8       0.85      80        10        
+
+Vw      = 547.19
+t_acq   = 8.6 min
+g_max   = 75 mT/m, (g_pf = 1)
+snr_min = 6.9, (snr_pf = 1)
+metric: 547.19
+ 
+migration = 42
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.5       1         55        10        
+1         1         145       45        
+2.6       -0.5      95        6         
+3.8       0.85      80        10        
+
+Vw      = 543.7088
+t_acq   = 8.2 min
+g_max   = 75 mT/m, (g_pf = 1)
+snr_min = 6.9, (snr_pf = 1)
+metric: 543.7088
+ 
+migration = 43
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.5       1         55        10        
+1         1         145       45        
+2.6       -0.5      95        6         
+3.8       0.85      80        10        
+
+Vw      = 543.7088
+t_acq   = 8.2 min
+g_max   = 75 mT/m, (g_pf = 1)
+snr_min = 6.9, (snr_pf = 1)
+metric: 543.7088
+ 
+migration = 44
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.5       1         55        10        
+1         1         145       45        
+2.6       -0.5      95        6         
+3.8       0.85      80        10        
+
+Vw      = 543.7088
+t_acq   = 8.2 min
+g_max   = 75 mT/m, (g_pf = 1)
+snr_min = 6.9, (snr_pf = 1)
+metric: 543.7088
+ 
+migration = 45
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.5       1         55        10        
+1         1         145       45        
+2.6       -0.5      95        6         
+3.8       0.85      80        10        
+
+Vw      = 543.7088
+t_acq   = 8.2 min
+g_max   = 75 mT/m, (g_pf = 1)
+snr_min = 6.9, (snr_pf = 1)
+metric: 543.7088
+ 
+migration = 46
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.5       1         55        10        
+1         1         145       45        
+2.6       -0.5      95        6         
+3.8       0.85      80        10        
+
+Vw      = 543.7088
+t_acq   = 8.2 min
+g_max   = 75 mT/m, (g_pf = 1)
+snr_min = 6.9, (snr_pf = 1)
+metric: 543.7088
+Secondary termination condition reached
+ 
+ 
+Run nr: 5 -------------------
+ 
+-------------------------------
+Running SOMA all-to-one with settings:
+n_mig: 200
+n_ind: 32
+step_length: 0.21
+path_length: 2.1
+p: 0.2
+min_decrease: 1e-05
+-------------------------------
+ 
+ 
+migration = 1
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.3       -0.15     200       6         
+2.4       0.4       140       45        
+2.6       0.95      210       6         
+3.4       0.5       105       10        
+
+Vw      = 2242744.2311
+t_acq   = 11 min
+g_max   = 61 mT/m, (g_pf = 1)
+snr_min = 1.6, (snr_pf = 440.6919)
+metric: 988359110.8331
+ 
+migration = 2
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+1.1       0.25      170       45        
+1.5       0.3       135       10        
+2.1       0.5       225       15        
+3.3       -0.4      210       30        
+
+Vw      = 321469.1769
+t_acq   = 17 min
+g_max   = 29 mT/m, (g_pf = 1)
+snr_min = 1, (snr_pf = 2475.0548)
+metric: 795653840.117
+ 
+migration = 3
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.5       0.4       140       30        
+0.7       -0.2      115       45        
+2.5       0.3       95        10        
+3.4       0.8       85        15        
+
+Vw      = 212317.6085
+t_acq   = 11 min
+g_max   = 69 mT/m, (g_pf = 1)
+snr_min = 7.1, (snr_pf = 1)
+metric: 212317.6085
+ 
+migration = 4
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.8       0.2       125       15        
+1.5       -0.4      130       10        
+2         0.8       100       10        
+3.4       0.9       125       15        
+
+Vw      = 98409.1977
+t_acq   = 5.2 min
+g_max   = 37 mT/m, (g_pf = 1)
+snr_min = 4.2, (snr_pf = 1)
+metric: 98409.1977
+ 
+migration = 5
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.3       -0.15     75        30        
+1.5       1         210       6         
+2.4       0.4       140       45        
+3.4       0.5       100       10        
+
+Vw      = 15632.4633
+t_acq   = 14 min
+g_max   = 67 mT/m, (g_pf = 1)
+snr_min = 2.5, (snr_pf = 1)
+metric: 15632.4633
+ 
+migration = 6
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.7       -0.2      80        30        
+0.8       0.4       140       30        
+2.5       0.3       95        6         
+3.2       0.8       85        15        
+
+Vw      = 12932.3311
+t_acq   = 9 min
+g_max   = 69 mT/m, (g_pf = 1)
+snr_min = 7.4, (snr_pf = 1)
+metric: 12932.3311
+ 
+migration = 7
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.3       -0.15     75        30        
+1.5       1         160       6         
+1.7       0.4       140       45        
+3.4       0.5       100       10        
+
+Vw      = 11214.7088
+t_acq   = 11 min
+g_max   = 67 mT/m, (g_pf = 1)
+snr_min = 4.7, (snr_pf = 1)
+metric: 11214.7088
+ 
+migration = 8
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.9       0.8       110       10        
+1.2       0.7       180       45        
+2.2       0.95      115       6         
+3.1       0.35      105       30        
+
+Vw      = 9168.9598
+t_acq   = 13 min
+g_max   = 63 mT/m, (g_pf = 1)
+snr_min = 4.5, (snr_pf = 1)
+metric: 9168.9598
+ 
+migration = 9
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.3       0.3       65        45        
+0.8       0.8       180       30        
+1.8       -0.2      105       6         
+3.1       0.45      100       10        
+
+Vw      = 8779.3578
+t_acq   = 13 min
+g_max   = 68 mT/m, (g_pf = 1)
+snr_min = 5.3, (snr_pf = 1)
+metric: 8779.3578
+ 
+migration = 10
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.7       -0.2      80        30        
+0.8       0.4       140       45        
+2.1       -0.3      95        6         
+3.2       0.8       85        10        
+
+Vw      = 7775.1851
+t_acq   = 10 min
+g_max   = 66 mT/m, (g_pf = 1)
+snr_min = 7.7, (snr_pf = 1)
+metric: 7775.1851
+ 
+migration = 11
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.3       0.3       65        45        
+0.8       0.8       180       45        
+2.1       -0.2      105       6         
+3.1       0.45      100       10        
+
+Vw      = 7553.338
+t_acq   = 15 min
+g_max   = 68 mT/m, (g_pf = 1)
+snr_min = 5.3, (snr_pf = 1)
+metric: 7553.338
+ 
+migration = 12
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.5       -0.3      95        15        
+0.9       0.75      175       45        
+1.1       -0.35     85        6         
+3.2       0.95      80        10        
+
+Vw      = 4784.4887
+t_acq   = 10 min
+g_max   = 58 mT/m, (g_pf = 1)
+snr_min = 5.9, (snr_pf = 1)
+metric: 4784.4887
+ 
+migration = 13
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.5       -0.45     80        45        
+0.7       0.75      170       45        
+1.9       -0.4      110       6         
+3.1       0.9       95        10        
+
+Vw      = 3171.6768
+t_acq   = 14 min
+g_max   = 43 mT/m, (g_pf = 1)
+snr_min = 7.2, (snr_pf = 1)
+metric: 3171.6768
+ 
+migration = 14
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.5       -0.45     80        45        
+0.7       0.75      170       45        
+1.9       -0.4      110       6         
+3.1       0.9       95        10        
+
+Vw      = 3171.6768
+t_acq   = 14 min
+g_max   = 43 mT/m, (g_pf = 1)
+snr_min = 7.2, (snr_pf = 1)
+metric: 3171.6768
+ 
+migration = 15
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.4       -0.45     80        30        
+0.8       0.95      140       45        
+2.1       -0.4      95        6         
+3.1       0.9       85        10        
+
+Vw      = 1841.1726
+t_acq   = 10 min
+g_max   = 59 mT/m, (g_pf = 1)
+snr_min = 8.4, (snr_pf = 1)
+metric: 1841.1726
+ 
+migration = 16
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.4       -0.45     80        30        
+0.8       0.95      140       45        
+2.1       -0.4      95        6         
+3.1       0.9       85        10        
+
+Vw      = 1841.1726
+t_acq   = 10 min
+g_max   = 59 mT/m, (g_pf = 1)
+snr_min = 8.4, (snr_pf = 1)
+metric: 1841.1726
+ 
+migration = 17
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.4       -0.45     75        30        
+0.8       0.95      175       45        
+2         -0.4      85        6         
+3.2       0.9       80        10        
+
+Vw      = 1439.8945
+t_acq   = 12 min
+g_max   = 71 mT/m, (g_pf = 1)
+snr_min = 6.3, (snr_pf = 1)
+metric: 1439.8945
+ 
+migration = 18
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.4       -0.45     75        30        
+0.8       0.95      175       45        
+2         -0.4      85        6         
+3.2       0.9       80        10        
+
+Vw      = 1439.8945
+t_acq   = 12 min
+g_max   = 71 mT/m, (g_pf = 1)
+snr_min = 6.3, (snr_pf = 1)
+metric: 1439.8945
+ 
+migration = 19
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.4       -0.45     75        30        
+0.9       1         145       45        
+1.8       -0.45     95        6         
+3         0.9       80        10        
+
+Vw      = 1224.8285
+t_acq   = 10 min
+g_max   = 61 mT/m, (g_pf = 1)
+snr_min = 9.5, (snr_pf = 1)
+metric: 1224.8285
+ 
+migration = 20
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.4       -0.45     75        30        
+0.8       0.95      150       45        
+2         -0.45     90        6         
+3         0.9       75        10        
+
+Vw      = 1166.6306
+t_acq   = 11 min
+g_max   = 75 mT/m, (g_pf = 1)
+snr_min = 9.5, (snr_pf = 1)
+metric: 1166.6306
+ 
+migration = 21
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.4       -0.45     65        30        
+0.8       1         150       45        
+2.1       -0.45     95        6         
+3.3       0.9       80        10        
+
+Vw      = 1008.0313
+t_acq   = 11 min
+g_max   = 68 mT/m, (g_pf = 1)
+snr_min = 8.4, (snr_pf = 1)
+metric: 1008.0313
+ 
+migration = 22
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.4       -0.45     65        30        
+0.8       0.95      150       45        
+2         -0.45     90        6         
+3         0.9       75        10        
+
+Vw      = 984.9689
+t_acq   = 11 min
+g_max   = 75 mT/m, (g_pf = 1)
+snr_min = 9.5, (snr_pf = 1)
+metric: 984.9689
+ 
+migration = 23
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.3       0.75      65        15        
+0.9       1         160       45        
+1.8       -0.4      90        10        
+3.3       0.85      80        6         
+
+Vw      = 925.0827
+t_acq   = 9.5 min
+g_max   = 70 mT/m, (g_pf = 1)
+snr_min = 7.6, (snr_pf = 1)
+metric: 925.0827
+ 
+migration = 24
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.3       0.75      65        15        
+0.9       1         160       45        
+1.8       -0.4      90        10        
+3.3       0.85      80        6         
+
+Vw      = 925.0827
+t_acq   = 9.5 min
+g_max   = 70 mT/m, (g_pf = 1)
+snr_min = 7.6, (snr_pf = 1)
+metric: 925.0827
+ 
+migration = 25
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.3       0.8       65        30        
+0.8       1         150       45        
+1.8       -0.45     90        6         
+3         0.9       75        10        
+
+Vw      = 858.3584
+t_acq   = 11 min
+g_max   = 75 mT/m, (g_pf = 1)
+snr_min = 9.5, (snr_pf = 1)
+metric: 858.3584
+ 
+migration = 26
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.4       0.95      65        15        
+0.9       1         150       45        
+2.1       -0.45     90        6         
+2.8       0.9       75        10        
+
+Vw      = 815.1568
+t_acq   = 9 min
+g_max   = 72 mT/m, (g_pf = 1)
+snr_min = 8.9, (snr_pf = 1)
+metric: 815.1568
+ 
+migration = 27
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.4       0.85      65        10        
+0.9       1         150       45        
+1.8       -0.45     90        10        
+3         0.9       75        6         
+
+Vw      = 716.8087
+t_acq   = 8.4 min
+g_max   = 75 mT/m, (g_pf = 1)
+snr_min = 8.9, (snr_pf = 1)
+metric: 716.8087
+ 
+migration = 28
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.4       0.8       60        15        
+0.9       1         150       45        
+2.4       -0.45     90        15        
+3.4       0.95      75        10        
+
+Vw      = 671.4351
+t_acq   = 10 min
+g_max   = 73 mT/m, (g_pf = 1)
+snr_min = 8.9, (snr_pf = 1)
+metric: 671.4351
+ 
+migration = 29
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.4       0.85      60        15        
+0.9       1         150       45        
+2.1       -0.45     90        10        
+3         0.9       75        10        
+
+Vw      = 651.8456
+t_acq   = 9.5 min
+g_max   = 75 mT/m, (g_pf = 1)
+snr_min = 8.9, (snr_pf = 1)
+metric: 651.8456
+ 
+migration = 30
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.4       0.8       60        15        
+0.9       1         140       45        
+2.1       -0.5      90        10        
+3.2       0.95      75        10        
+
+Vw      = 630.6188
+t_acq   = 8.9 min
+g_max   = 71 mT/m, (g_pf = 1)
+snr_min = 9.7, (snr_pf = 1)
+metric: 630.6188
+ 
+migration = 31
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.4       0.85      60        15        
+0.9       1         150       45        
+2.1       -0.5      90        10        
+3         0.9       75        10        
+
+Vw      = 609.4586
+t_acq   = 9.5 min
+g_max   = 75 mT/m, (g_pf = 1)
+snr_min = 8.9, (snr_pf = 1)
+metric: 609.4586
+ 
+migration = 32
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.4       0.85      60        15        
+0.9       1         150       45        
+2.1       -0.5      90        10        
+3         0.9       75        10        
+
+Vw      = 609.4586
+t_acq   = 9.5 min
+g_max   = 75 mT/m, (g_pf = 1)
+snr_min = 8.9, (snr_pf = 1)
+metric: 609.4586
+ 
+migration = 33
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.4       0.85      60        15        
+1         1         140       45        
+2         -0.5      95        10        
+3         0.9       75        10        
+
+Vw      = 604.2296
+t_acq   = 8.9 min
+g_max   = 75 mT/m, (g_pf = 1)
+snr_min = 9.9, (snr_pf = 1)
+metric: 604.2296
+ 
+migration = 34
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.4       0.85      60        15        
+1         1         145       45        
+2.3       -0.5      90        10        
+3.4       0.95      75        10        
+
+Vw      = 593.0283
+t_acq   = 9.2 min
+g_max   = 73 mT/m, (g_pf = 1)
+snr_min = 9.1, (snr_pf = 1)
+metric: 593.0283
+ 
+migration = 35
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.4       0.85      60        15        
+1         1         145       45        
+2.3       -0.5      90        10        
+3.4       0.95      75        10        
+
+Vw      = 593.0283
+t_acq   = 9.2 min
+g_max   = 73 mT/m, (g_pf = 1)
+snr_min = 9.1, (snr_pf = 1)
+metric: 593.0283
+ 
+migration = 36
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.4       0.85      60        15        
+1         1         145       45        
+2.3       -0.5      90        10        
+3.4       0.95      75        10        
+
+Vw      = 593.0283
+t_acq   = 9.2 min
+g_max   = 73 mT/m, (g_pf = 1)
+snr_min = 9.1, (snr_pf = 1)
+metric: 593.0283
+ 
+migration = 37
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.4       0.85      60        15        
+1         1         145       45        
+2.3       -0.5      90        10        
+3.4       0.95      75        10        
+
+Vw      = 593.0283
+t_acq   = 9.2 min
+g_max   = 73 mT/m, (g_pf = 1)
+snr_min = 9.1, (snr_pf = 1)
+metric: 593.0283
+ 
+migration = 38
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.4       0.85      60        15        
+1         1         145       45        
+2.3       -0.5      90        10        
+3.4       0.95      75        10        
+
+Vw      = 593.0283
+t_acq   = 9.2 min
+g_max   = 73 mT/m, (g_pf = 1)
+snr_min = 9.1, (snr_pf = 1)
+metric: 593.0283
+Secondary termination condition reached
+ 
+ 
+Run nr: 6 -------------------
+ 
+-------------------------------
+Running SOMA all-to-one with settings:
+n_mig: 200
+n_ind: 32
+step_length: 0.21
+path_length: 2.1
+p: 0.2
+min_decrease: 1e-05
+-------------------------------
+ 
+ 
+migration = 1
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+2.2       -0.2      110       10        
+2.5       0.4       170       45        
+3.6       0.45      150       30        
+4.2       0.6       130       30        
+
+Vw      = 681450.0558
+t_acq   = 15 min
+g_max   = 55 mT/m, (g_pf = 1)
+snr_min = 2.1, (snr_pf = 1)
+metric: 681450.0558
+ 
+migration = 2
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+2.2       -0.2      110       10        
+2.5       0.4       170       45        
+3.6       0.45      150       30        
+4.2       0.6       130       30        
+
+Vw      = 681450.0558
+t_acq   = 15 min
+g_max   = 55 mT/m, (g_pf = 1)
+snr_min = 2.1, (snr_pf = 1)
+metric: 681450.0558
+ 
+migration = 3
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+2.2       -0.2      110       10        
+2.5       0.4       170       45        
+3.6       0.45      150       30        
+4.2       0.6       130       30        
+
+Vw      = 681450.0558
+t_acq   = 15 min
+g_max   = 55 mT/m, (g_pf = 1)
+snr_min = 2.1, (snr_pf = 1)
+metric: 681450.0558
+ 
+migration = 4
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.4       0.6       115       45        
+0.6       0.45      75        15        
+1.5       -0.1      105       15        
+2         0.7       110       10        
+
+Vw      = 22653.7293
+t_acq   = 8.1 min
+g_max   = 57 mT/m, (g_pf = 1)
+snr_min = 8.8, (snr_pf = 1)
+metric: 22653.7293
+ 
+migration = 5
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.4       0.6       115       45        
+0.6       0.45      75        15        
+1.5       -0.1      105       15        
+2         0.7       110       10        
+
+Vw      = 22653.7293
+t_acq   = 8.1 min
+g_max   = 57 mT/m, (g_pf = 1)
+snr_min = 8.8, (snr_pf = 1)
+metric: 22653.7293
+ 
+migration = 6
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.4       0.6       115       45        
+0.6       0.45      75        15        
+1.5       -0.1      105       15        
+2         0.7       110       10        
+
+Vw      = 22653.7293
+t_acq   = 8.1 min
+g_max   = 57 mT/m, (g_pf = 1)
+snr_min = 8.8, (snr_pf = 1)
+metric: 22653.7293
+ 
+migration = 7
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.2       0.7       160       45        
+0.7       0.85      70        15        
+1.1       -0.3      115       30        
+2         0.6       110       10        
+
+Vw      = 16608.5706
+t_acq   = 12 min
+g_max   = 49 mT/m, (g_pf = 1)
+snr_min = 8.7, (snr_pf = 1)
+metric: 16608.5706
+ 
+migration = 8
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.4       0.65      115       45        
+0.6       0.45      70        15        
+1.5       -0.2      105       15        
+2         0.65      110       10        
+
+Vw      = 10388.796
+t_acq   = 8.1 min
+g_max   = 70 mT/m, (g_pf = 1)
+snr_min = 8.7, (snr_pf = 1)
+metric: 10388.796
+ 
+migration = 9
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.4       0.65      160       45        
+0.7       0.85      70        15        
+1.1       -0.2      115       30        
+2         0.6       110       10        
+
+Vw      = 10351.2709
+t_acq   = 12 min
+g_max   = 49 mT/m, (g_pf = 1)
+snr_min = 8.7, (snr_pf = 1)
+metric: 10351.2709
+ 
+migration = 10
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.4       0.35      75        6         
+0.7       0.65      150       15        
+2         0.75      110       10        
+2.6       -0.2      105       10        
+
+Vw      = 8674.6938
+t_acq   = 4.9 min
+g_max   = 65 mT/m, (g_pf = 1)
+snr_min = 5.9, (snr_pf = 1)
+metric: 8674.6938
+ 
+migration = 11
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.3       0.95      130       30        
+0.8       0.9       75        15        
+2         0.6       105       6         
+2.7       -0.25     100       10        
+
+Vw      = 6464.1922
+t_acq   = 6.4 min
+g_max   = 71 mT/m, (g_pf = 1)
+snr_min = 6, (snr_pf = 1)
+metric: 6464.1922
+ 
+migration = 12
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.5       1         75        10        
+0.5       0.95      125       30        
+0.9       -0.25     100       10        
+2         0.6       105       10        
+
+Vw      = 4622.0751
+t_acq   = 6.1 min
+g_max   = 43 mT/m, (g_pf = 1)
+snr_min = 9.4, (snr_pf = 1)
+metric: 4622.0751
+ 
+migration = 13
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.8       -0.25     100       15        
+1.2       0.85      200       30        
+2         0.5       105       15        
+3.8       0.85      85        10        
+
+Vw      = 4468.8573
+t_acq   = 11 min
+g_max   = 63 mT/m, (g_pf = 1)
+snr_min = 3.3, (snr_pf = 1)
+metric: 4468.8573
+ 
+migration = 14
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.8       -0.25     100       15        
+1.2       0.85      200       30        
+2         0.5       105       15        
+3.8       0.85      85        10        
+
+Vw      = 4468.8573
+t_acq   = 11 min
+g_max   = 63 mT/m, (g_pf = 1)
+snr_min = 3.3, (snr_pf = 1)
+metric: 4468.8573
+ 
+migration = 15
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.5       1         75        10        
+0.6       0.95      145       30        
+0.9       -0.25     100       10        
+2         0.55      105       10        
+
+Vw      = 3918.3754
+t_acq   = 6.9 min
+g_max   = 45 mT/m, (g_pf = 1)
+snr_min = 9.3, (snr_pf = 1)
+metric: 3918.3754
+ 
+migration = 16
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.4       0.9       75        10        
+0.5       0.95      145       30        
+2         0.6       105       6         
+3         -0.25     100       10        
+
+Vw      = 3340.1502
+t_acq   = 6.4 min
+g_max   = 75 mT/m, (g_pf = 1)
+snr_min = 4.9, (snr_pf = 1)
+metric: 3340.1502
+ 
+migration = 17
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.5       0.9       75        6         
+0.6       1         165       30        
+2.3       0.6       105       10        
+3.1       -0.4      105       10        
+
+Vw      = 2363.8411
+t_acq   = 7.2 min
+g_max   = 60 mT/m, (g_pf = 1)
+snr_min = 5, (snr_pf = 1)
+metric: 2363.8411
+ 
+migration = 18
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.6       0.9       70        10        
+0.7       0.9       170       30        
+1.5       -0.3      100       15        
+2.2       0.6       95        10        
+
+Vw      = 2126.4451
+t_acq   = 8.6 min
+g_max   = 54 mT/m, (g_pf = 1)
+snr_min = 7.3, (snr_pf = 1)
+metric: 2126.4451
+ 
+migration = 19
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.6       0.9       75        10        
+0.6       1         165       30        
+2.3       0.6       105       10        
+3.1       -0.4      100       10        
+
+Vw      = 1984.3763
+t_acq   = 7.7 min
+g_max   = 65 mT/m, (g_pf = 1)
+snr_min = 5.4, (snr_pf = 1)
+metric: 1984.3763
+ 
+migration = 20
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.8       0.85      65        10        
+0.9       0.95      180       30        
+2.4       0.6       105       6         
+3         -0.45     95        6         
+
+Vw      = 1615.2661
+t_acq   = 7.2 min
+g_max   = 67 mT/m, (g_pf = 1)
+snr_min = 5.5, (snr_pf = 1)
+metric: 1615.2661
+ 
+migration = 21
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.6       0.9       60        10        
+0.6       1         165       30        
+2.4       0.6       105       10        
+3.1       -0.45     95        10        
+
+Vw      = 1390.8231
+t_acq   = 7.7 min
+g_max   = 72 mT/m, (g_pf = 1)
+snr_min = 6.1, (snr_pf = 1)
+metric: 1390.8231
+ 
+migration = 22
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.6       0.9       70        10        
+0.7       1         170       30        
+1.8       -0.45     100       6         
+2.3       0.6       95        6         
+
+Vw      = 1303.4733
+t_acq   = 6.8 min
+g_max   = 55 mT/m, (g_pf = 1)
+snr_min = 7.3, (snr_pf = 1)
+metric: 1303.4733
+ 
+migration = 23
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.7       0.85      65        10        
+0.8       0.95      170       30        
+1.6       -0.4      100       10        
+2.3       0.6       90        6         
+
+Vw      = 1298.0717
+t_acq   = 7.4 min
+g_max   = 62 mT/m, (g_pf = 1)
+snr_min = 6.8, (snr_pf = 1)
+metric: 1298.0717
+ 
+migration = 24
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.6       0.9       60        10        
+0.7       0.95      170       30        
+1.5       -0.45     100       6         
+2.3       0.6       85        6         
+
+Vw      = 1094.3085
+t_acq   = 6.8 min
+g_max   = 72 mT/m, (g_pf = 1)
+snr_min = 7.3, (snr_pf = 1)
+metric: 1094.3085
+ 
+migration = 25
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.6       0.9       65        15        
+0.7       0.95      150       30        
+1.5       -0.5      100       6         
+2.4       0.6       90        6         
+
+Vw      = 1089.1529
+t_acq   = 6.7 min
+g_max   = 63 mT/m, (g_pf = 1)
+snr_min = 9.6, (snr_pf = 1)
+metric: 1089.1529
+ 
+migration = 26
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.6       0.9       60        10        
+0.7       0.95      135       30        
+1.6       -0.45     100       6         
+2.5       0.6       85        6         
+
+Vw      = 853.7388
+t_acq   = 5.6 min
+g_max   = 72 mT/m, (g_pf = 1)
+snr_min = 9.8, (snr_pf = 1)
+metric: 853.7388
+ 
+migration = 27
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.6       0.9       60        10        
+0.7       0.95      135       30        
+1.6       -0.45     100       6         
+2.5       0.6       85        6         
+
+Vw      = 853.7388
+t_acq   = 5.6 min
+g_max   = 72 mT/m, (g_pf = 1)
+snr_min = 9.8, (snr_pf = 1)
+metric: 853.7388
+ 
+migration = 28
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.6       0.9       60        10        
+0.7       0.95      135       30        
+1.6       -0.45     100       6         
+2.5       0.6       85        6         
+
+Vw      = 853.7388
+t_acq   = 5.6 min
+g_max   = 72 mT/m, (g_pf = 1)
+snr_min = 9.8, (snr_pf = 1)
+metric: 853.7388
+ 
+migration = 29
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.6       0.9       60        10        
+0.7       0.95      140       30        
+1.7       -0.45     95        6         
+2.4       0.6       85        6         
+
+Vw      = 846.1582
+t_acq   = 5.8 min
+g_max   = 72 mT/m, (g_pf = 1)
+snr_min = 10, (snr_pf = 1)
+metric: 846.1582
+ 
+migration = 30
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.5       0.85      60        10        
+0.8       0.95      145       30        
+1.7       -0.5      100       6         
+2.5       0.6       85        6         
+
+Vw      = 818.2092
+t_acq   = 6 min
+g_max   = 71 mT/m, (g_pf = 1)
+snr_min = 9.8, (snr_pf = 1)
+metric: 818.2092
+ 
+migration = 31
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.6       0.9       60        10        
+0.8       0.95      135       30        
+1.7       -0.5      100       6         
+2.4       0.6       85        6         
+
+Vw      = 807.3843
+t_acq   = 5.6 min
+g_max   = 72 mT/m, (g_pf = 1)
+snr_min = 10, (snr_pf = 1)
+metric: 807.3843
+ 
+migration = 32
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.5       0.9       60        10        
+0.8       0.95      145       30        
+1.7       -0.5      100       6         
+2.5       0.6       85        6         
+
+Vw      = 798.1392
+t_acq   = 6 min
+g_max   = 71 mT/m, (g_pf = 1)
+snr_min = 9.8, (snr_pf = 1)
+metric: 798.1392
+ 
+migration = 33
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.6       0.9       60        10        
+0.8       0.95      145       30        
+1.7       -0.5      100       6         
+2.5       0.6       85        6         
+
+Vw      = 777.0774
+t_acq   = 6 min
+g_max   = 72 mT/m, (g_pf = 1)
+snr_min = 9.8, (snr_pf = 1)
+metric: 777.0774
+ 
+migration = 34
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.5       0.95      55        10        
+0.9       1         160       30        
+1.7       -0.5      100       6         
+2.4       0.6       85        10        
+
+Vw      = 763.5643
+t_acq   = 7 min
+g_max   = 72 mT/m, (g_pf = 1)
+snr_min = 7.6, (snr_pf = 1)
+metric: 763.5643
+ 
+migration = 35
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.6       0.9       60        10        
+0.8       1         145       30        
+1.7       -0.5      100       6         
+2.5       0.6       85        6         
+
+Vw      = 750.2466
+t_acq   = 6 min
+g_max   = 72 mT/m, (g_pf = 1)
+snr_min = 9.8, (snr_pf = 1)
+metric: 750.2466
+ 
+migration = 36
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.5       0.95      55        10        
+0.9       1         155       30        
+1.7       -0.5      100       6         
+2.4       0.6       85        10        
+
+Vw      = 734.6046
+t_acq   = 6.8 min
+g_max   = 72 mT/m, (g_pf = 1)
+snr_min = 8.2, (snr_pf = 1)
+metric: 734.6046
+ 
+migration = 37
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.6       0.95      60        10        
+0.8       1         145       30        
+1.7       -0.5      100       6         
+2.4       0.65      85        6         
+
+Vw      = 723.1149
+t_acq   = 6 min
+g_max   = 66 mT/m, (g_pf = 1)
+snr_min = 10, (snr_pf = 1)
+metric: 723.1149
+ 
+migration = 38
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.6       1         55        10        
+0.8       0.95      145       30        
+1.7       -0.5      100       6         
+2.4       0.6       85        6         
+
+Vw      = 703.5433
+t_acq   = 6 min
+g_max   = 73 mT/m, (g_pf = 1)
+snr_min = 10, (snr_pf = 1)
+metric: 703.5433
+ 
+migration = 39
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.6       1         55        10        
+0.8       1         145       30        
+1.7       -0.5      100       6         
+2.5       0.6       85        6         
+
+Vw      = 665.7839
+t_acq   = 6 min
+g_max   = 73 mT/m, (g_pf = 1)
+snr_min = 9.8, (snr_pf = 1)
+metric: 665.7839
+ 
+migration = 40
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.6       1         55        10        
+0.8       1         145       30        
+1.7       -0.5      100       6         
+2.5       0.6       85        6         
+
+Vw      = 665.7839
+t_acq   = 6 min
+g_max   = 73 mT/m, (g_pf = 1)
+snr_min = 9.8, (snr_pf = 1)
+metric: 665.7839
+ 
+migration = 41
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.6       1         55        10        
+0.8       1         145       30        
+1.7       -0.5      100       6         
+2.5       0.65      85        6         
+
+Vw      = 652.5709
+t_acq   = 6 min
+g_max   = 73 mT/m, (g_pf = 1)
+snr_min = 10, (snr_pf = 1)
+metric: 652.5709
+ 
+migration = 42
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.6       1         55        10        
+0.8       1         145       30        
+1.7       -0.5      100       6         
+2.6       0.65      85        6         
+
+Vw      = 649.9988
+t_acq   = 6 min
+g_max   = 73 mT/m, (g_pf = 1)
+snr_min = 9.5, (snr_pf = 1)
+metric: 649.9988
+ 
+migration = 43
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.6       1         55        10        
+0.8       1         140       30        
+1.7       -0.5      100       6         
+2.6       0.65      85        6         
+
+Vw      = 641.7389
+t_acq   = 5.8 min
+g_max   = 73 mT/m, (g_pf = 1)
+snr_min = 9.5, (snr_pf = 1)
+metric: 641.7389
+ 
+migration = 44
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.6       1         55        10        
+0.8       1         140       30        
+1.7       -0.5      100       6         
+2.6       0.65      85        6         
+
+Vw      = 641.7389
+t_acq   = 5.8 min
+g_max   = 73 mT/m, (g_pf = 1)
+snr_min = 9.5, (snr_pf = 1)
+metric: 641.7389
+ 
+migration = 45
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.6       1         55        10        
+0.8       1         140       30        
+1.7       -0.5      100       6         
+2.6       0.65      85        6         
+
+Vw      = 641.7389
+t_acq   = 5.8 min
+g_max   = 73 mT/m, (g_pf = 1)
+snr_min = 9.5, (snr_pf = 1)
+metric: 641.7389
+ 
+migration = 46
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.6       1         55        10        
+0.8       1         140       30        
+2         -0.5      95        6         
+2.6       0.65      85        6         
+
+Vw      = 640.145
+t_acq   = 5.8 min
+g_max   = 73 mT/m, (g_pf = 1)
+snr_min = 9.5, (snr_pf = 1)
+metric: 640.145
+ 
+migration = 47
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.6       1         55        10        
+0.8       1         140       30        
+1.9       -0.5      95        6         
+2.6       0.65      85        6         
+
+Vw      = 638.3652
+t_acq   = 5.8 min
+g_max   = 73 mT/m, (g_pf = 1)
+snr_min = 9.5, (snr_pf = 1)
+metric: 638.3652
+ 
+migration = 48
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.6       1         55        10        
+0.8       1         140       30        
+1.8       -0.5      100       6         
+2.7       0.65      85        6         
+
+Vw      = 635.083
+t_acq   = 5.8 min
+g_max   = 73 mT/m, (g_pf = 1)
+snr_min = 9, (snr_pf = 1)
+metric: 635.083
+ 
+migration = 49
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.6       1         55        10        
+0.8       1         140       30        
+1.8       -0.5      100       6         
+2.7       0.65      85        6         
+
+Vw      = 635.083
+t_acq   = 5.8 min
+g_max   = 73 mT/m, (g_pf = 1)
+snr_min = 9, (snr_pf = 1)
+metric: 635.083
+ 
+migration = 50
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.6       1         55        10        
+0.8       1         140       30        
+2         -0.5      95        6         
+2.7       0.65      85        6         
+
+Vw      = 633.5946
+t_acq   = 5.8 min
+g_max   = 73 mT/m, (g_pf = 1)
+snr_min = 9, (snr_pf = 1)
+metric: 633.5946
+ 
+migration = 51
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.6       1         55        10        
+0.8       1         140       30        
+2         -0.5      95        6         
+2.7       0.65      85        6         
+
+Vw      = 633.5946
+t_acq   = 5.8 min
+g_max   = 73 mT/m, (g_pf = 1)
+snr_min = 9, (snr_pf = 1)
+metric: 633.5946
+ 
+migration = 52
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.6       1         55        10        
+0.8       1         140       30        
+2         -0.5      95        6         
+2.7       0.65      85        6         
+
+Vw      = 633.5946
+t_acq   = 5.8 min
+g_max   = 73 mT/m, (g_pf = 1)
+snr_min = 9, (snr_pf = 1)
+metric: 633.5946
+ 
+migration = 53
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.6       1         55        10        
+0.8       1         140       30        
+2         -0.5      95        6         
+2.7       0.65      85        6         
+
+Vw      = 633.5946
+t_acq   = 5.8 min
+g_max   = 73 mT/m, (g_pf = 1)
+snr_min = 9, (snr_pf = 1)
+metric: 633.5946
+ 
+migration = 54
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.6       1         55        10        
+0.8       1         140       30        
+1.9       -0.5      100       6         
+2.8       0.65      85        6         
+
+Vw      = 633.4602
+t_acq   = 5.8 min
+g_max   = 73 mT/m, (g_pf = 1)
+snr_min = 8.6, (snr_pf = 1)
+metric: 633.4602
+ 
+migration = 55
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.6       1         55        10        
+0.8       1         140       30        
+1.9       -0.5      100       6         
+2.8       0.65      85        6         
+
+Vw      = 633.4602
+t_acq   = 5.8 min
+g_max   = 73 mT/m, (g_pf = 1)
+snr_min = 8.6, (snr_pf = 1)
+metric: 633.4602
+ 
+migration = 56
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.6       1         55        10        
+0.8       1         140       30        
+1.9       -0.5      100       6         
+2.8       0.65      85        6         
+
+Vw      = 633.4602
+t_acq   = 5.8 min
+g_max   = 73 mT/m, (g_pf = 1)
+snr_min = 8.6, (snr_pf = 1)
+metric: 633.4602
+ 
+migration = 57
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.6       1         55        10        
+0.8       1         140       30        
+1.9       -0.5      100       6         
+2.8       0.65      85        6         
+
+Vw      = 633.4602
+t_acq   = 5.8 min
+g_max   = 73 mT/m, (g_pf = 1)
+snr_min = 8.6, (snr_pf = 1)
+metric: 633.4602
+ 
+migration = 58
+Best guess:
+----------------------------------
+b         b_delta   te        n_dir     
+0.6       1         55        10        
+0.8       1         140       30        
+1.9       -0.5      100       6         
+2.8       0.65      85        6         
+
+Vw      = 633.4602
+t_acq   = 5.8 min
+g_max   = 73 mT/m, (g_pf = 1)
+snr_min = 8.6, (snr_pf = 1)
+metric: 633.4602
+Secondary termination condition reached
+ 
+ 

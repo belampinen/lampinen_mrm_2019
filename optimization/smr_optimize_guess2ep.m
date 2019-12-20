@@ -22,6 +22,6 @@ te              = smr_optimize_discretize_ep(te,        'te',           opt);
 ndir            = opt.discrete_ndir(ceil(ndir_scale));
 
 % EP
-ep              = [b' b_delta' te' ndir'];
+ep              = [b(:) b_delta(:) te(:) ndir(:)];
 
 end

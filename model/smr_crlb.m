@@ -19,16 +19,19 @@ a_s  = export.a_s;
 a_z  = export.a_z;
 A_s  = export.A_s;
 A_z  = export.A_z;
-C2_s = export.C2_s;
-C2_z = export.C2_z;
+i2_s = export.i2_s;
+i2_z = export.i2_z;
 y20  = export.y20;
 y21  = export.y21;
 y22  = export.y22;
-pys  = export.pys;
+p2m_y2m_sum  = export.p2m_y2m_sum;
 Ads  = export.Ads;
 Adz  = export.Adz;
 At2s = export.At2s;
 At2z = export.At2z;
+%
+p00  = 1 / sqrt(4 * pi);
+y00  = 1 / sqrt(4 * pi);
 
 % 
 %--------------------------------------------------------
@@ -37,7 +40,7 @@ At2z = export.At2z;
 
 %%% Model
 % s   = s0 * [ f * Ads .* At2s + (1 - f) * Adz .* At2z]
-% Ad  = exp(a) .* (1/2 * C0 + pi * C2 .* pys)
+% Adx = exp(a_x) .* (i0_x + 4pi * i2_x .* p2m_y2m_sum);
 %
 
 %%% Derivatives
@@ -58,28 +61,29 @@ A_s_di_s = 3 * xps.b .* xps.b_delta * 1;
 A_z_di_z = 3 * xps.b .* xps.b_delta * dd_z;
 A_z_dd_z = 3 * xps.b .* xps.b_delta * di_z;
 %
-% Obtain the CX derivatives numerically
+% Obtain the il_dx derivatives numerically
 step            = 1e-4;
-[C0_sf, C2_sf]  = smr_c0c2(A_s+step);
-[C0_sb, C2_sb]  = smr_c0c2(A_s-step);
-C0_s_p = (C0_sf - C0_sb) / (2 * step);
-C2_s_p = (C2_sf - C2_sb) / (2 * step);
+[i0_sf, i2_sf]  = smr_i0i2(A_s+step);
+[i0_sb, i2_sb]  = smr_i0i2(A_s-step);
+i0_s_p = (i0_sf - i0_sb) / (2 * step);
+i2_s_p = (i2_sf - i2_sb) / (2 * step);
 %
-[C0_zf, C2_zf]  = smr_c0c2(A_z+step);
-[C0_zb, C2_zb]  = smr_c0c2(A_z-step);
-C0_z_p = (C0_zf - C0_zb) / (2 * step);
-C2_z_p = (C2_zf - C2_zb) / (2 * step);
+[i0_zf, i2_zf]  = smr_i0i2(A_z+step);
+[i0_zb, i2_zb]  = smr_i0i2(A_z-step);
+i0_z_p = (i0_zf - i0_zb) / (2 * step);
+i2_z_p = (i2_zf - i2_zb) / (2 * step);
 %
-Ads_di_s = a_s_di_s .* Ads + exp(a_s) .* A_s_di_s .* (C0_s_p/2 + pi * C2_s_p .* pys);
-Ads_di_z = a_z_di_z .* Adz + exp(a_z) .* A_z_di_z .* (C0_z_p/2 + pi * C2_z_p .* pys);
-Ads_dd_z = a_z_dd_z .* Adz + exp(a_z) .* A_z_dd_z .* (C0_z_p/2 + pi * C2_z_p .* pys);
+Ads_di_s = a_s_di_s .* Ads + exp(a_s) .* A_s_di_s .* (i0_s_p * p00 * y00 * sqrt(4*pi) + i2_s_p .* p2m_y2m_sum * sqrt(4*pi/5));
+Adz_di_z = a_z_di_z .* Adz + exp(a_z) .* A_z_di_z .* (i0_z_p * p00 * y00 * sqrt(4*pi) + i2_z_p .* p2m_y2m_sum * sqrt(4*pi/5));
+Adz_dd_z = a_z_dd_z .* Adz + exp(a_z) .* A_z_dd_z .* (i0_z_p * p00 * y00 * sqrt(4*pi) + i2_z_p .* p2m_y2m_sum * sqrt(4*pi/5));
 %
 D3  = s0 * f          * Ads_di_s .* At2s;  % di_s
-D4  = s0 * (1 - f)    * Ads_di_z .* At2z;  % di_z
-D5  = s0 * (1 - f)    * Ads_dd_z .* At2z;  % dd_z
+D4  = s0 * (1 - f)    * Adz_di_z .* At2z;  % di_z
+D5  = s0 * (1 - f)    * Adz_dd_z .* At2z;  % dd_z
 
 % --- p2x
-c_f = s0 * pi * (f * exp(a_s) .* C2_s .* At2s + (1 - f) * exp(a_z) .* C2_z .* At2z);
+c_f = s0 * (f * exp(a_s) .* i2_s * sqrt(4*pi/5) .* At2s + (1 - f) * exp(a_z) .* i2_z * sqrt(4*pi/5) .* At2z);
+
 %
 D6  =           y20    .* c_f; % p20
 D7  =  2 * real(y21)   .* c_f; % p21r

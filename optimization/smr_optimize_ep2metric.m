@@ -6,9 +6,10 @@ n_mp    = size(mp, 1);
 
 %%% XPS
 xps     = my_ep2xps(ep);
+t_acq   = smr_optimize_xps2tacq(xps, opt);
 
 %%% Vw
-[vw, t_acq] = smr_optimize_vw(xps, mp, opt);
+vw    = smr_optimize_ep2vw(ep, opt);
 
 %%% OF (apply penalties to Vw)
 %

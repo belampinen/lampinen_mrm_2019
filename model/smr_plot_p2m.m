@@ -12,8 +12,8 @@ end
 udirs = uvec_elstat_500;
 %
 [phi, theta] = cart2sph(udirs(:,1), udirs(:,2), udirs(:,3));
-phi     = phi + pi;       % [-pi pi]  --> [0 2pi]
-theta   = pi / 2 - theta; % elevation --> inclination
+phi     = phi + pi;       % [-pi pi]  --> [0 2pi], longitude
+theta   = pi / 2 - theta; % latitude  --> co-latitude
 
 % Construct complex coefficients of ODF
 p00     = 1 / sqrt(pi);
@@ -41,13 +41,14 @@ xlabel('x')
 ylabel('y')
 zlabel('z')
 axis equal
+axis([0 1 0 1 0 1] * 2)
 
 max_val = max(abs([get(gca, 'xlim') get(gca, 'ylim') get(gca, 'zlim')]));
 set(gca, 'xlim', [-max_val max_val], 'ylim', [-max_val max_val], 'zlim', [-max_val max_val])
 
 set(gcf, 'pos', [ 21   435   441   366]);
 %
-p2 = smr_p2m2p2([p20 p21r p21i p22r p22i]);
+p2 = smr_px2p2([p20 p21r p21i p22r p22i]);
 %
 title(['p2 = ' num2str(p2)])
 end
