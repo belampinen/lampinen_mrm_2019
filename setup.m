@@ -1,12 +1,17 @@
-function setup(do_restoredefaultpath)
+function setup
 %
-if (nargin < 1), do_restoredefaultpath = 0; end
-%
-% Restores the default paths and adds all relevant subdirs to the
+% Restores the default path and adds all relevant subdirs to the
 % path. Run this when you start MATLAB to use the code.
 %
 
+%%% Setup MDM framework
+%
+run([pwd '/../md-dmri/setup_paths.m'])
+
+%%% Setup SMR-specific code
+%
 subfolders_list = {...
+    'dependencies', ...
     'estimates', ...
     'figures', ...
     'model', ...
@@ -18,10 +23,6 @@ subfolders_list = {...
 
 t = fileparts(mfilename('fullpath'));
 
-if (do_restoredefaultpath)
-    disp('Restoring default path');
-    restoredefaultpath;
-end
 %
 for c_package = 1:numel(subfolders_list)
     addpath(fullfile(t, subfolders_list{c_package}), '-end');
